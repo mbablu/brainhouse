@@ -1,10 +1,12 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer id="footer" className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-6 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
           <div id="footer-brand" className="lg:col-span-1">
-            <div className="flex items-center space-x-2 mb-6">
+            <Link href="/" className="flex items-center space-x-2 mb-6">
               <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
                 <svg
                   className="text-white text-lg w-5 h-7"
@@ -23,7 +25,7 @@ export default function Footer() {
                 </svg>
               </div>
               <span className="text-2xl font-bold">BrainHouse</span>
-            </div>
+            </Link>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Leading AI consulting and development company creating intelligent
               solutions for the future.
@@ -53,39 +55,39 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-6">About Us</h3>
             <ul className="space-y-3">
               <li>
-                <span className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                <Link href="/about-us#who-we-are" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                   Who We Are
-                </span>
+                </Link>
               </li>
               <li>
-                <span className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                <Link href="/about-us#vision-mission" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                   Vision &amp; Mission
-                </span>
+                </Link>
               </li>
               <li>
-                <span className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                <Link href="/about-us#company-profile" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                   Company Profile
-                </span>
+                </Link>
               </li>
               <li>
-                <span className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                <Link href="/about-us#quality-policy" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                   Quality Policy
-                </span>
+                </Link>
               </li>
               <li>
-                <span className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                <Link href="/about-us#quality-policy"className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                   Confidentiality
-                </span>
+                </Link>
               </li>
               <li>
-                <span className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                <Link href="/about-us#Development Process" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                   Development Process
-                </span>
+                </Link>
               </li>
               <li>
-                <span className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                <Link href="/about-us#Development Process" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                   Delivery Methodologies
-                </span>
+                </Link>
               </li>
             </ul>
           </div>
@@ -99,24 +101,24 @@ export default function Footer() {
                 </h4>
                 <ul className="space-y-2 text-sm">
                   <li>
-                    <span className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                     <Link href="/services#ai-consulting-details" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                       AI Consulting
-                    </span>
+                    </Link>
                   </li>
                   <li>
-                    <span className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                    <Link href="/services#genai-details" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                       AI Product Development
-                    </span>
+                    </Link>
                   </li>
                   <li>
-                    <span className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                    <Link href="/services#ai-consulting-details" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                       AI Agent Development
-                    </span>
+                    </Link>
                   </li>
                   <li>
-                    <span className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                    <Link href="/services#ai-consulting-details" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                       AI Integration Services
-                    </span>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -126,19 +128,19 @@ export default function Footer() {
                 </h4>
                 <ul className="space-y-2 text-sm">
                   <li>
-                    <span className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                    <Link href="/services#ai-consulting-details" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                       Generative AI Consulting
-                    </span>
+                    </Link>
                   </li>
                   <li>
-                    <span className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                    <Link href="/services#ai-consulting-details" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                       UX Pilot Integration
-                    </span>
+                    </Link>
                   </li>
                   <li>
-                    <span className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                    <Link href="/services#ai-consulting-details" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                       AI Chatbot Development
-                    </span>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -150,7 +152,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-6">Industries</h3>
             <ul className="space-y-3">
               <li>
-                <span className="text-gray-400 hover:text-white transition-colors flex items-center cursor-pointer">
+                <Link href="/industries#fintech-section" className="text-gray-400 hover:text-white transition-colors flex items-center cursor-pointer">
                   <svg
                     className="w-4 mr-2 text-blue-400"
                     xmlns="http://www.w3.org/2000/svg"
@@ -160,10 +162,10 @@ export default function Footer() {
                     <path d="M243.4 2.6l-224 96c-14 6-21.8 21-18.7 35.8S16.8 160 32 160v8c0 13.3 10.7 24 24 24H456c13.3 0 24-10.7 24-24v-8c15.2 0 28.3-10.7 31.3-25.6s-4.8-29.9-18.7-35.8l-224-96c-8-3.4-17.2-3.4-25.2 0zM128 224H64V420.3l-49.8 33.1c-11.7 7.8-17 22.4-12.9 35.9S17.9 512 32 512H480c14.1 0 26.5-9.2 30.6-22.7s-1.1-28.1-12.9-35.9l-48-32V224H384V416H344V224H280V416H232V224H168V416H128V224zM256 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
                   </svg>
                   AI for Fintech
-                </span>
+                </Link>
               </li>
               <li>
-                <span className="text-gray-400 hover:text-white transition-colors flex items-center cursor-pointer">
+                <Link href="/industries#logistics-section" className="text-gray-400 hover:text-white transition-colors flex items-center cursor-pointer">
                   <svg
                     className="w-4 mr-2 text-green-400"
                     xmlns="http://www.w3.org/2000/svg"
@@ -173,10 +175,10 @@ export default function Footer() {
                     <path d="M48 0C21.5 0 0 21.5 0 48V368c0 26.5 21.5 48 48 48H64c0 53 43 96 96 96s96-43 96-96H384c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V256 237.3c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H48zM416 160h50.7L544 237.3V256H416V160zM112 416a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm368-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
                   </svg>
                   AI for Logistics
-                </span>
+                </Link>
               </li>
               <li>
-                <span className="text-gray-400 hover:text-white transition-colors flex items-center cursor-pointer">
+                <Link href="/industries#healthcare-section" className="text-gray-400 hover:text-white transition-colors flex items-center cursor-pointer">
                   <svg
                     className="w-4 mr-2 text-red-400"
                     xmlns="http://www.w3.org/2000/svg"
@@ -186,10 +188,10 @@ export default function Footer() {
                     <path d="M228.3 469.1L47.6 300.4c-4.2-3.9-8.2-8.1-11.9-12.4h87c22.6 0 43-13.6 51.7-34.5l10.5-25.2 49.3 109.5c3.8 8.5 12.1 14 21.4 14.1s17.8-5 22-13.3L320 253.7l1.7 3.4c9.5 19 28.9 31 50.1 31H476.3c-3.7 4.3-7.7 8.5-11.9 12.4L283.7 469.1c-7.5 7-17.4 10.9-27.7 10.9s-20.2-3.9-27.7-10.9z" />
                   </svg>
                   AI for Healthcare
-                </span>
+                </Link>
               </li>
               <li>
-                <span className="text-gray-400 hover:text-white transition-colors flex items-center cursor-pointer">
+                <Link href="/industries#digital-industries" className="text-gray-400 hover:text-white transition-colors flex items-center cursor-pointer">
                   <svg
                     className="w-4 mr-2 text-yellow-400"
                     xmlns="http://www.w3.org/2000/svg"
@@ -199,10 +201,10 @@ export default function Footer() {
                     <path d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9v28.1c0 28.4-10.8 57.7-22.3 80.8-6.5 13-13.9 25.8-22.5 37.6-3.9 5.7-5 11.3-3.2 16.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5V291.9c0-30.2 10.2-58.7 27.9-81.5l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32z" />
                   </svg>
                   AI for Education
-                </span>
+                </Link>
               </li>
               <li>
-                <span className="text-gray-400 hover:text-white transition-colors flex items-center cursor-pointer">
+                <Link href="/industries#digital-industries" className="text-gray-400 hover:text-white transition-colors flex items-center cursor-pointer">
                   <svg
                     className="w-4 mr-2 text-purple-400"
                     xmlns="http://www.w3.org/2000/svg"
@@ -212,10 +214,10 @@ export default function Footer() {
                     <path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
                   </svg>
                   AI for Retail
-                </span>
+                </Link>
               </li>
               <li>
-                <span className="text-gray-400 hover:text-white transition-colors flex items-center cursor-pointer">
+                <Link href="/industries#digital-industries" className="text-gray-400 hover:text-white transition-colors flex items-center cursor-pointer">
                   <svg
                     className="w-4 mr-2 text-indigo-400"
                     xmlns="http://www.w3.org/2000/svg"
@@ -225,7 +227,7 @@ export default function Footer() {
                     <path d="M482.3 192c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64l-116.6 0L265.2 495.9c-5.7 10-16.3 16.1-27.8 16.1h-56.2c-10.6 0-18.3-10.2-15.4-20.4l49-171.6L112 320 68.8 377.6c-3 4-7.8 6.4-12.8 6.4h-42c-7.8 0-14-6.3-14-14c0-1.3 .2-2.6 .5-3.9L32 256 .5 145.9c-.4-1.3-.5-2.6-.5-3.9c0-7.8 6.3-14 14-14h42c5 0 9.8 2.4 12.8 6.4L112 192h102.9l-49-171.6C162.9 10.2 170.6 0 181.2 0h56.2c11.5 0 22.1 6.2 27.8 16.1L365.7 192h116.6z" />
                   </svg>
                   AI for Travel
-                </span>
+                </Link>
               </li>
             </ul>
           </div>
@@ -234,24 +236,24 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-6">Resources</h3>
             <ul className="space-y-3 mb-8">
               <li>
-                <span className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                <Link href="/resource#case-studies-hero" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                   Case Studies
-                </span>
+                </Link>
               </li>
               <li>
-                <span className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                <Link href="/resource#faq-section" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                   FAQ &amp; AI Myth Busters
-                </span>
+                </Link>
               </li>
               <li>
-                <span className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                <Link href="/resource#case-studies-hero" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                   Blog
-                </span>
+                </Link>
               </li>
               <li>
-                <span className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                <Link href="/resource#case-studies-hero" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                   Documentation
-                </span>
+                </Link>
               </li>
             </ul>
 

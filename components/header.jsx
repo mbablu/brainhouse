@@ -2,6 +2,7 @@
 
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link'
 import { useState } from 'react'
 
 const navigation = [
@@ -18,7 +19,7 @@ export default function Header() {
     <header id="header" className="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 py-4">
             <div className="flex items-center justify-between">
-                <div className="flex items-center space-x-2">
+                <Link href="/" className="flex items-center space-x-2">
                   <div className="w-[37px] h-[41px] bg-gradient-to-r from-[#6C63FF] to-[#9D4EDD] rounded-md flex items-center justify-center">
                     <svg
                       className="w-4 h-4 text-white"
@@ -30,14 +31,14 @@ export default function Header() {
                     </svg>
                   </div>
                   <span className="text-[18px] font-bold text-[#333333]">BrainHouse</span>
-                </div>
+                </Link>
 
                 <nav className="hidden md:flex items-center space-x-8">
-                    <span className="text-gray-800 hover:text-[#111] transition-colors cursor-pointer">Solutions</span>
-                    <span className="text-gray-800 hover:text-[#111] transition-colors cursor-pointer">Industries</span>
-                    <span className="text-gray-800 hover:text-[#111] transition-colors cursor-pointer">Resources</span>
-                    <span className="text-gray-800 hover:text-[#111] transition-colors cursor-pointer">About</span>
-                    <button className="bg-[#4338ca] cursor-pointer text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition-colors">Contact</button>
+                    <Link href="/services" className="text-gray-800 hover:text-[#111] transition-colors cursor-pointer">Solutions</Link>
+                    <Link href="/industries" className="text-gray-800 hover:text-[#111] transition-colors cursor-pointer">Industries</Link>
+                    <Link href="/resource" className="text-gray-800 hover:text-[#111] transition-colors cursor-pointer">Resources</Link>
+                    <Link href="/about-us" className="text-gray-800 hover:text-[#111] transition-colors cursor-pointer">About</Link>
+                    <Link href="/contact-us" className="bg-[#4338ca] cursor-pointer text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition-colors">Contact</Link>
                 </nav>
                 <button className="md:hidden">
                     <i className="text-gray-600" data-fa-i2svg=""><svg className="svg-inline--fa fa-bars" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"></path></svg></i>
