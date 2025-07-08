@@ -21,7 +21,7 @@
 
 body {
   background: var(--background);
-  color: var(--foreground);
+  color: #444;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -33,4 +33,24 @@ body {
 }
 .text-primary {
   color: #6366f1;
+}
+.bg-secondary {
+    background-color: #8b5cf6;
+}
+.text-secondary {
+  color: #8b5cf6;
+}
+.bg-accent {
+  background-color: #06b6d4;
+}
+
+.text-accent {
+  color: #06b6d4;
+}
+
+.text-dark {
+  color: #111;
+}
+.gradient-bg {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }

@@ -2,7 +2,7 @@
 
 export default function StatsSection() {
   return (
-    <section id="stats" className="py-20 bg-secondary text-white">
+    <section id="stats" className="py-20 bg-[#1f2937] text-white">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-center mb-4">The Future is Now</h2>
         <p className="text-xl text-gray-300 text-center mb-16">
