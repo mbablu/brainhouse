@@ -16,13 +16,13 @@ export default function HeroSection() {
   return (
     <section
       id="hero"
-      className="bg-gradient-to-br from-gray-900 via-secondary to-gray-800 text-white h-[700px] flex items-center"
+      className="bg-gradient-to-br from-gray-900 via-secondary to-gray-800 text-white min-h-[700px] flex items-center pt-[70px]"
     >
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6 py-14">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Side */}
           <div>
-            <h1 className="text-5xl lg:text-6xl font-bold leading-tight mb-6">
+            <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6">
               Welcome to{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5C6EFF] to-[#D28EFF]">
                 BrainHouse

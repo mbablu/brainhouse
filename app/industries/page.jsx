@@ -7,10 +7,10 @@ export default function Industries() {
 
   return (
     <>
-        <section id="hero" className="bg-gradient-to-br from-[#6366f1] to-[#8b5cf6] text-white h-[500px] flex items-center">
+        <section id="hero" className="bg-gradient-to-br from-[#6366f1] to-[#8b5cf6] text-white min-h-[500px] py-20 flex items-center">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center">
-                    <h1 className="text-5xl font-bold mb-6">Industries We Empower with AI</h1>
+                    <h1 className="text-4xl lg:text-5xl font-bold mb-6">Industries We Empower with AI</h1>
                     <p className="text-xl text-blue-100 max-w-3xl mx-auto mb-8">From precision in logistics to personalization in retail, our AI-powered innovations are redefining how industries think, respond, and evolve.</p>
                     <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                         <div id="critical-infrastructure" className="bg-white/10 backdrop-blur-sm rounded-lg p-6">

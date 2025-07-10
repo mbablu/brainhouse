@@ -7,10 +7,10 @@ export default function Services() {
 
   return (
     <>
-        <section id="hero" className="bg-gradient-to-br from-primary to-secondary text-white h-[600px] flex items-center">
+        <section id="hero" className="bg-gradient-to-br from-[#3B82F6] to-[#1E40AF] text-white h-[600px] flex items-center pt-[70px]">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center">
-                    <h1 className="text-5xl md:text-6xl font-bold mb-6">
+                    <h1 className="text-4xl md:text-6xl font-bold mb-6">
                         AI Solutions That <span className="text-accent">Transform</span> Business
                     </h1>
                     <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90">

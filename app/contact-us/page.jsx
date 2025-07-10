@@ -6,7 +6,7 @@ import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/2
 export default function ContactUs() {
   return (
     <>
-        <div className="relative isolate bg-gray-900">
+        <div className="relative isolate bg-gray-900 pt-[70px]">
         <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
             <div className="relative px-6 pt-24 pb-20 sm:pt-32 lg:static lg:px-8 lg:py-48">
             <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
@@ -57,9 +57,11 @@ export default function ContactUs() {
                     <BuildingOffice2Icon aria-hidden="true" className="h-7 w-6 text-gray-400" />
                     </dt>
                     <dd>
-                    545 Mavis Island
-                    <br />
-                    Chicago, IL 99191
+                    Brainhouse Inc<br/>
+                    Suite 200 <br/>
+                    2020 Winston Park Drive<br/>
+                    Oakville, ON<br/>
+                    Canada L6H 6X7
                     </dd>
                 </div>
                 <div className="flex gap-x-4">
@@ -69,7 +71,7 @@ export default function ContactUs() {
                     </dt>
                     <dd>
                     <a href="tel:+1 (555) 234-5678" className="hover:text-white">
-                        +1 (555) 234-5678
+                        800-920-0350
                     </a>
                     </dd>
                 </div>
@@ -80,7 +82,7 @@ export default function ContactUs() {
                     </dt>
                     <dd>
                     <a href="mailto:hello@example.com" className="hover:text-white">
-                        hello@example.com
+                        info@brainhouse.net
                     </a>
                     </dd>
                 </div>

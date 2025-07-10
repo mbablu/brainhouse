@@ -74,11 +74,11 @@ export default function AboutUs() {
     <>
       <section 
       id="hero" 
-      className="bg-gradient-to-br from-blue-50 via-purple-50 to-emerald-50 h-[500px] flex items-center"
+      className="bg-gradient-to-br from-blue-50 via-purple-50 to-emerald-50 min-h-[500px] py-20 flex items-center"
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl font-bold text-gray-900 mb-6">
+            <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
               Catalysts of <span className="text-blue-600">AI Transformation</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
