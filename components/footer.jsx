@@ -24,13 +24,13 @@ export default function Footer() {
                   />
                 </svg>
               </div>
-              <span className="text-2xl font-bold">BrainHouse</span>
+              <span className="text-2xl font-bold">brainhouse</span>
             </Link>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Leading AI consulting and development company creating intelligent
               solutions for the future.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <span className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors cursor-pointer">
                 <svg
                   className="text-lg"
@@ -48,7 +48,7 @@ export default function Footer() {
                   />
                 </svg>
               </span>
-            </div>
+            </div> */}
           </div>
 
           <div id="footer-about" className="lg:col-span-1">
@@ -96,9 +96,9 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-6">Services</h3>
             <div className="space-y-4">
               <div>
-                <h4 className="text-sm font-medium text-blue-400 mb-2">
+                {/* <h4 className="text-sm font-medium text-blue-400 mb-2">
                   AI Consulting &amp; Development
-                </h4>
+                </h4> */}
                 <ul className="space-y-2 text-sm">
                   <li>
                      <Link href="/services#ai-consulting-details" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
@@ -233,7 +233,7 @@ export default function Footer() {
           </div>
 
           <div id="footer-resources" className="lg:col-span-1">
-            <h3 className="text-lg font-semibold mb-6">Resources</h3>
+            <h3 className="text-lg font-semibold mb-6">Case Study</h3>
             <ul className="space-y-3 mb-8">
               <li>
                 <Link href="/resource#case-studies-hero" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
@@ -245,7 +245,7 @@ export default function Footer() {
                   FAQ &amp; AI Myth Busters
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/resource#case-studies-hero" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                   Blog
                 </Link>
@@ -254,7 +254,7 @@ export default function Footer() {
                 <Link href="/resource#case-studies-hero" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                   Documentation
                 </Link>
-              </li>
+              </li> */}
             </ul>
 
             <div
@@ -284,7 +284,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6">
               <p className="text-gray-400 text-sm">
-                © 2024 BrainHouse. All rights reserved.
+                © 2025 Brainhouse Inc. all rights reserved.
               </p>
               <div className="flex space-x-6">
                 <span className="text-gray-400 hover:text-white text-sm transition-colors cursor-pointer">
@@ -293,15 +293,15 @@ export default function Footer() {
                 <span className="text-gray-400 hover:text-white text-sm transition-colors cursor-pointer">
                   Terms of Service
                 </span>
-                <span className="text-gray-400 hover:text-white text-sm transition-colors cursor-pointer">
+                {/* <span className="text-gray-400 hover:text-white text-sm transition-colors cursor-pointer">
                   Cookie Policy
-                </span>
+                </span> */}
               </div>
             </div>
             <div className="flex items-center space-x-4 mt-4 md:mt-0">
               <span className="text-gray-400 text-sm">Contact:</span>
               <span className="text-blue-400 hover:text-blue-300 text-sm transition-colors cursor-pointer">
-                hello@brainhouse.ai
+                hello@ brainhouse.ai
               </span>
               <span className="text-blue-400 hover:text-blue-300 text-sm transition-colors cursor-pointer">
                 +1 (234) 567-890

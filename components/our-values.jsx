@@ -9,7 +9,7 @@ export default function OurValues() {
             Passionate About People, Obsessed with Possibilities
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-            At BrainHouse, we are passionate about democratizing AI. We build tools that transform industries and empower communities.
+            At Brainhouse, we are passionate about democratizing AI. We build tools that transform industries and empower communities.
           </p>
         </div>
 

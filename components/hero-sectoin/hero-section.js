@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const navigation = [
   { name: 'Product', href: '#' },
@@ -25,7 +26,7 @@ export default function HeroSection() {
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6">
               Welcome to{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5C6EFF] to-[#D28EFF]">
-                BrainHouse
+               Brainhouse
               </span>
             </h1>
             <p className="text-xl lg:text-2xl text-gray-300 mb-4">
@@ -35,15 +36,15 @@ export default function HeroSection() {
 
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-[#4338ca] hover:bg-indigo-700 text-white px-8 py-4 rounded-lg font-semibold transition-colors">
+              <Link href="/services" className="bg-[#4338ca] hover:bg-indigo-700 text-white px-8 py-4 rounded-lg font-semibold transition-colors">
                 Explore Our Solutions
-              </button>
-              <button className="border border-gray-400 hover:border-white text-white px-8 py-4 rounded-lg font-semibold transition-colors">
+              </Link>
+              <Link href="/contact-us" className="border border-gray-400 hover:border-white text-white px-8 py-4 rounded-lg font-semibold transition-colors">
                 Talk to an AI Expert
-              </button>
-              <button className="text-gray-300 hover:text-white px-8 py-4 rounded-lg font-semibold transition-colors border border-gray-600 hover:border-gray-400">
+              </Link>
+              {/* <button className="text-gray-300 hover:text-white px-8 py-4 rounded-lg font-semibold transition-colors border border-gray-600 hover:border-gray-400">
                 Download Case Study
-              </button>
+              </button> */}
             </div>
           </div>
 

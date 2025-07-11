@@ -11,6 +11,7 @@ import {
     SunIcon,
     UserGroupIcon,
 } from '@heroicons/react/20/solid'
+import Link from 'next/link';
 const stats = [
   { label: 'Business was founded', value: '2012' },
   { label: 'People on the team', value: '120+' },
@@ -85,18 +86,18 @@ export default function AboutUs() {
               We bridge the gap between business challenges and cutting-edge technology, creating intelligent solutions that elevate lives and drive sustainable growth.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-blue-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors flex items-center justify-center">
+              <Link href="services" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors flex items-center justify-center">
                 <i className="mr-2 h-5 w-5">
                   <svg className="svg-inline--fa fa-rocket" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="rocket" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M156.6 384.9L125.7 354c-8.5-8.5-11.5-20.8-7.7-32.2c3-8.9 7-20.5 11.8-33.8L24 288c-8.6 0-16.6-4.6-20.9-12.1s-4.2-16.7 .2-24.1l52.5-88.5c13-21.9 36.5-35.3 61.9-35.3l82.3 0c2.4-4 4.8-7.7 7.2-11.3C289.1-4.1 411.1-8.1 483.9 5.3c11.6 2.1 20.6 11.2 22.8 22.8c13.4 72.9 9.3 194.8-111.4 276.7c-3.5 2.4-7.3 4.8-11.3 7.2v82.3c0 25.4-13.4 49-35.3 61.9l-88.5 52.5c-7.4 4.4-16.6 4.5-24.1 .2s-12.1-12.2-12.1-20.9V380.8c-14.1 4.9-26.4 8.9-35.7 11.9c-11.2 3.6-23.4 .5-31.8-7.8zM384 168a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"></path></svg>
                 </i>
                 Discover Our Solutions
-              </button>
-              <button className="border border-blue-600 text-blue-600 px-8 py-3 rounded-lg font-medium hover:bg-blue-50 transition-colors flex items-center justify-center">
+              </Link>
+              {/* <button className="border border-blue-600 text-blue-600 px-8 py-3 rounded-lg font-medium hover:bg-blue-50 transition-colors flex items-center justify-center">
                 <i className="mr-2 h-5 w-5">
                   <svg className="svg-inline--fa fa-play" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="play" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"></path></svg>
                 </i>
                 Watch Our Story
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
@@ -109,14 +110,14 @@ export default function AboutUs() {
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Who We Are</h2>
               <p className="text-gray-600 text-lg mb-6">
-                BrainHouse is more than a tech company—we are catalysts of transformation in a world rapidly reshaped by artificial intelligence. Founded by innovators and built by technologists, BrainHouse exists at the intersection of real-world impact and future-forward solutions.
+               Brainhouse is more than a tech company—we are catalysts of transformation in a world rapidly reshaped by artificial intelligence. Founded by innovators and built by technologists, Brainhouse exists at the intersection of real-world impact and future-forward solutions.
               </p>
               <p className="text-gray-600 text-lg mb-8">
                 From helping cities become smarter to equipping healthcare with predictive tools, we develop AI systems that don't just automate, but elevate.
               </p>
               <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-xl border-l-4 border-blue-600">
                 <p className="text-lg font-medium text-gray-900 italic">
-                  "At BrainHouse, we believe in designing AI that elevates lives—not just performance."
+                  "At Brainhouse, we believe in designing AI that elevates lives—not just performance."
                 </p>
                 <p className="text-blue-600 font-medium mt-2">— Founder & CEO</p>
               </div>
@@ -153,7 +154,7 @@ export default function AboutUs() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Vision & Mission</h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-              Our guiding principles that drive every decision and innovation at BrainHouse
+              Our guiding principles that drive every decision and innovation at Brainhouse
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
@@ -200,7 +201,7 @@ export default function AboutUs() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Company Profile</h2>
-            <p className="text-gray-600 text-lg">Key facts and figures about BrainHouse Technologies</p>
+            <p className="text-gray-600 text-lg">Key facts and figures about Brainhouse Technologies</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
@@ -314,13 +315,13 @@ export default function AboutUs() {
               </div>
               <h3 className="text-xl font-bold text-black mb-4">Quality Policy</h3>
               <p className="text-gray-600 mb-4">
-                Quality at BrainHouse is not a checkbox; it's a commitment. Every project undergoes rigorous design reviews, iterative testing, and stakeholder validations.
+                Quality at Brainhouse is not a checkbox; it's a commitment. Every project undergoes rigorous design reviews, iterative testing, and stakeholder validations.
               </p>
-              <div className="flex flex-wrap gap-2">
+              {/* <div className="flex flex-wrap gap-2">
                 <span className="px-3 py-1 bg-[#8b5cf6]/10 text-primary rounded-full text-sm">ISO</span>
                 <span className="px-3 py-1 bg-[#8b5cf6]/10 text-primary rounded-full text-sm">HIPAA</span>
                 <span className="px-3 py-1 bg-[#8b5cf6]/10 text-primary rounded-full text-sm">GDPR</span>
-              </div>
+              </div> */}
             </div>
 
             {/* Confidentiality Card */}

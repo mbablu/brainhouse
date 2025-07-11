@@ -1,6 +1,7 @@
 'use client'
 import Image from 'next/image'
 import { Search, PenTool, Code, CheckCheck, Rocket, Headphones } from 'lucide-react';
+import Link from 'next/link';
 
 
 export default function Services() {
@@ -17,12 +18,12 @@ export default function Services() {
                         From AI consulting to generative AI development, we deliver intelligent solutions that drive real-world value and operational excellence.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <button className="bg-accent text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-cyan-600 transition-colors cursor-pointer">
-                            Explore AI Services
-                        </button>
-                        <button className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-[#06b6d4] transition-colors cursor-pointer">
+                        <Link href="/contact-us" className="bg-accent text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-cyan-600 transition-colors cursor-pointer">
                             Schedule Consultation
-                        </button>
+                        </Link>
+                        {/* <button className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-[#06b6d4] transition-colors cursor-pointer">
+                            Schedule Consultation
+                        </button> */}
                     </div>
                 </div>
             </div>
@@ -63,9 +64,9 @@ export default function Services() {
                                 <span className="text-gray-700">90% of enterprise data optimized</span>
                             </div>
                         </div>
-                        <button className="bg-primary text-white px-6 py-3 rounded-lg hover:bg-secondary transition-colors">
+                        {/* <button className="bg-primary text-white px-6 py-3 rounded-lg hover:bg-secondary transition-colors">
                             Learn More
-                        </button>
+                        </button> */}
                     </div>
 
                     <div id="genai-card" className="bg-gradient-to-br from-cyan-50 to-blue-50 rounded-2xl p-8 border border-cyan-100">
@@ -92,9 +93,9 @@ export default function Services() {
                                 <span className="text-gray-700">Private cloud LLM deployments</span>
                             </div>
                         </div>
-                        <button className="bg-accent text-white px-6 py-3 rounded-lg hover:bg-cyan-600 transition-colors">
+                        {/* <button className="bg-accent text-white px-6 py-3 rounded-lg hover:bg-cyan-600 transition-colors">
                             Learn More
-                        </button>
+                        </button> */}
                     </div>
                 </div>
             </div>
@@ -105,7 +106,7 @@ export default function Services() {
                 <div className="text-center mb-16">
                     <h2 className="text-4xl font-bold text-gray-900 mb-6">AI Consulting &amp; Development</h2>
                     <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-                        At BrainHouse, AI isn't just a tool—it's a mindset. Our comprehensive AI services help businesses envision, design, and implement intelligent solutions that deliver real-world value.
+                        At Brainhouse, AI isn't just a tool—it's a mindset. Our comprehensive AI services help businesses envision, design, and implement intelligent solutions that deliver real-world value.
                     </p>
                 </div>
 
@@ -269,7 +270,7 @@ export default function Services() {
         <section id="why-brainhouse" className="py-20 bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-gray-900 mb-6">Why Choose BrainHouse</h2>
+                    <h2 className="text-4xl font-bold text-gray-900 mb-6">Why Choose Brainhouse</h2>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                         Our expertise, methodology, and commitment to excellence make us the ideal partner for your AI transformation journey.
                     </p>

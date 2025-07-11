@@ -2,7 +2,7 @@ export default function WhyBrainHouse() {
   return (
     <section id="why-brainhouse" className="py-20 bg-gray-50">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-4xl font-bold text-center text-secondary mb-16">Why BrainHouse?</h2>
+        <h2 className="text-4xl font-bold text-center text-secondary mb-16">Why Brainhouse?</h2>
         <div className="grid md:grid-cols-2 gap-12">
           {/* Column 1 */}
           <div className="space-y-8">
