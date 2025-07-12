@@ -8,7 +8,7 @@ export default function Resources() {
 
   return (
     <>
-        <section id="case-studies-hero" className="gradient-bg text-white py-20">
+        <section id="case-studies-hero" className="gradient-bg text-white py-20 pt-30">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center">
                     <h1 className="text-4xl lg:text-5xl font-bold mb-6">Case Studies</h1>

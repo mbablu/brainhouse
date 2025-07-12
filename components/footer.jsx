@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from 'next/image';
+// import logoDark from '/images/logo-dark.svg';
 
 export default function Footer() {
   return (
@@ -24,8 +26,8 @@ export default function Footer() {
                   />
                 </svg>
               </div>
-              <span className="text-2xl font-bold">brainhouse</span> */}
-              <img className='w-[180px]' src="images/logo-dark.svg" alt="logo" />
+              <span className="text-2xl fonimages/logo-dark.svg"t-bold">brainhouse</span> */}
+              <Image className='w-[180px]' src="/images/logo-dark.svg" width={200} height={60} alt="logo" />
             </Link>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Leading AI consulting and development company creating intelligent
@@ -100,9 +102,10 @@ export default function Footer() {
                 {/* <h4 className="text-sm font-medium text-blue-400 mb-2">
                   AI Consulting &amp; Development
                 </h4> */}
-                <ul className="space-y-2 text-sm">
-                  <li>
-                     <Link href="/services#ai-consulting-details" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                
+                <ul className="space-y-3 text-sm">
+                  {/* <li>
+                     <Link href="/services/ai-consulting-development" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                       AI Consulting
                     </Link>
                   </li>
@@ -120,10 +123,50 @@ export default function Footer() {
                     <Link href="/services#ai-consulting-details" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                       AI Integration Services
                     </Link>
-                  </li>
+                  </li> */}
+                  <li>
+                      <Link
+                        href="/services/ai-consulting-development"
+                        className={`text-gray-400 hover:text-white transition-colors cursor-pointer`}
+                      >
+                        AI Consulting Development
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/services/generated-ai-development"
+                        className={`text-gray-400 hover:text-white transition-colors cursor-pointer`}
+                      >
+                        Generated AI Development
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/services/data-science"
+                        className={`text-gray-400 hover:text-white transition-colors cursor-pointer`}
+                      >
+                        Data Science
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/services/cyber-defense"
+                        className={`text-gray-400 hover:text-white transition-colors cursor-pointer`}
+                      >
+                        Cyber Defense
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/services/custom-software-development"
+                        className={`text-gray-400 hover:text-white transition-colors cursor-pointer`}
+                      >
+                        Custom Software Development
+                      </Link>
+                    </li>
                 </ul>
               </div>
-              <div>
+              {/* <div>
                 <h4 className="text-sm font-medium text-purple-400 mb-2">
                   Generative AI
                 </h4>
@@ -144,7 +187,7 @@ export default function Footer() {
                     </Link>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -311,6 +354,8 @@ export default function Footer() {
           </div>
         </div>
       </div>
+
+      
     </footer>
   );
 }
