@@ -48,8 +48,8 @@ export default function ContactUs() {
                     </div>
                     <h2 className="text-2xl font-semibold tracking-tight text-pretty text-white sm:text-3xl">Brainstorm with Brainhouse</h2>
                     <p className="mt-6 text-lg/8 text-gray-300">
-                    Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt
-                    integer elementum id sem. Arcu sed malesuada et magna.
+                    Let’s Build the Future Together – One Intelligent Solution at a Time.
+At Brainhouse, we co-create AI-driven ecosystems tailored to your vision, whether you're scaling with cloud-native architectures, deploying autonomous agents, or activating predictive insights. Our team of AI architects, data scientists, and cloud strategists bring deep tech and deep listening to every engagement. We don’t force solutions—we shape them around your goals. Let’s train a smarter future, together.
                     </p>
                     <dl className="mt-10 space-y-4 text-base/7 text-gray-300">
                     <div className="flex gap-x-4">
