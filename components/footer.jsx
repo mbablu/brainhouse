@@ -242,7 +242,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/resource#faq-section" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+                <Link href="/myth-busters" className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                   FAQ &amp; AI Myth Busters
                 </Link>
               </li>

@@ -53,6 +53,7 @@ const Header = () => {
     { name: 'Services', href: '/services' },
     { name: 'Industries', href: '/industries' },
     { name: 'Case Study', href: '/resource' },
+    { name: 'Myth Busters', href: '/myth-busters' }
   ];
 
   return (
@@ -160,7 +161,7 @@ const Header = () => {
           </div>
 
           {/* Mobile Menu Items */}
-          <nav className="space-y-1">
+          <nav className="space-y-0">
             {menuItems.map((item) => (
               <Link
                 key={item.name}
@@ -171,7 +172,7 @@ const Header = () => {
                 {item.name}
               </Link>
             ))}
-            <Link href="/contact-us" className="bg-[#4338ca] mt-10 cursor-pointer text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition-colors font-semibold text-sm w-full block text-center">Brainstorm</Link>
+            <Link href="/contact-us" className="bg-[#4338ca] mt-7 cursor-pointer text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition-colors font-semibold text-sm w-full block text-center">Brainstorm</Link>
           </nav>
         </div>
       </div>
