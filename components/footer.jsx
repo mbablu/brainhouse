@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
           <div id="footer-brand" className="lg:col-span-1">
             <Link href="/" className="flex items-center space-x-2 mb-6">
-              {/* <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+              {/* <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-[#6f6f7d] rounded-lg flex items-center justify-center">
                 <svg
                   className="text-white text-lg w-5 h-7"
                   aria-hidden="true"
@@ -303,7 +303,7 @@ export default function Footer() {
 
             <div
               id="footer-cta"
-              className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg p-4"
+              className="bg-gradient-to-r from-blue-600 to-blue-600 rounded-lg p-4"
             >
               <h4 className="font-semibold mb-2">Free AI Assessment</h4>
               <p className="text-sm text-blue-100 mb-3">

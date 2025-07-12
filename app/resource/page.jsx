@@ -22,7 +22,7 @@ export default function Resources() {
         <section id="case-studies-grid" className="py-20 bg-white">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center mb-16">
-                    <h2 className="text-3xl font-bold text-gray-900 mb-4">Industry-Leading Case Studies</h2>
+                    <h2 className="text-3xl font-bold text-[#192DA0]  mb-4">Industry-Leading Case Studies</h2>
                     <p className="text-gray-600">Powered by Machine Learning, Generative AI, and Big Data Engineering</p>
                 </div>
 
@@ -35,7 +35,7 @@ export default function Resources() {
                             <h3 className="text-xl font-bold text-gray-900">AI-Driven Parking Enforcement Platform</h3>
                         </div>
                         <div className="mb-6">
-                            <p className="text-sm font-semibold text-red-600 mb-2">Challenge:</p>
+                            <p className="text-sm font-semibold text-[#192DA0]  mb-2">Challenge:</p>
                             <p className="text-gray-700 mb-4">Outdated parking management tools, poor ticketing accuracy, no mobile integration</p>
                             <p className="text-sm font-semibold text-blue-600 mb-2">Solution:</p>
                             <p className="text-gray-700 mb-4">Real-time AI-powered platform with license plate recognition (OCR), digital ticketing, and centralized dashboard</p>
@@ -65,7 +65,7 @@ export default function Resources() {
                             <h3 className="text-xl font-bold text-gray-900">Smart City Planning &amp; Infrastructure Analytics</h3>
                         </div>
                         <div className="mb-6">
-                            <p className="text-sm font-semibold text-red-600 mb-2">Challenge:</p>
+                            <p className="text-sm font-semibold text-[#192DA0]  mb-2">Challenge:</p>
                             <p className="text-gray-700 mb-4">Lack of predictive data in urban planning decisions</p>
                             <p className="text-sm font-semibold text-blue-600 mb-2">Solution:</p>
                             <p className="text-gray-700 mb-4">Big data analytics engine using satellite imagery, mobility patterns, and sentiment data</p>
@@ -86,12 +86,12 @@ export default function Resources() {
                     <div id="retail-case" className="bg-white rounded-xl shadow-lg border border-gray-100 p-8 card-hover">
                         <div className="flex items-center mb-6">
                             <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mr-4">
-                                <i className="text-purple-600 text-xl" data-fa-i2svg=""><svg className="svg-inline--fa w-5 h-5 fa-cart-shopping" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cart-shopping" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg></i>
+                                <i className="text-[#6f6f7d] text-xl" data-fa-i2svg=""><svg className="svg-inline--fa w-5 h-5 fa-cart-shopping" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cart-shopping" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg></i>
                             </div>
                             <h3 className="text-xl font-bold text-gray-900">Retail Customer Behavior Prediction Engine</h3>
                         </div>
                         <div className="mb-6">
-                            <p className="text-sm font-semibold text-red-600 mb-2">Challenge:</p>
+                            <p className="text-sm font-semibold text-[#192DA0]  mb-2">Challenge:</p>
                             <p className="text-gray-700 mb-4">Poor conversion and cart abandonment in e-commerce marketplace</p>
                             <p className="text-sm font-semibold text-blue-600 mb-2">Solution:</p>
                             <p className="text-gray-700 mb-4">Behavioral analytics engine combining session tracking and purchase history</p>
@@ -117,7 +117,7 @@ export default function Resources() {
                             <h3 className="text-xl font-bold text-gray-900">Generative AI Content Assistant</h3>
                         </div>
                         <div className="mb-6">
-                            <p className="text-sm font-semibold text-red-600 mb-2">Challenge:</p>
+                            <p className="text-sm font-semibold text-[#192DA0]  mb-2">Challenge:</p>
                             <p className="text-gray-700 mb-4">Manual content creation slowing down publishing pipeline</p>
                             <p className="text-sm font-semibold text-blue-600 mb-2">Solution:</p>
                             <p className="text-gray-700 mb-4">Custom LLM-based tool for generating articles, social posts, and video summaries</p>
@@ -143,7 +143,7 @@ export default function Resources() {
                             <h3 className="text-xl font-bold text-gray-900">Credit Bureau AI Risk Engine</h3>
                         </div>
                         <div className="mb-6">
-                            <p className="text-sm font-semibold text-red-600 mb-2">Challenge:</p>
+                            <p className="text-sm font-semibold text-[#192DA0]  mb-2">Challenge:</p>
                             <p className="text-gray-700 mb-4">Credit evaluation for underbanked population lacked data sources</p>
                             <p className="text-sm font-semibold text-blue-600 mb-2">Solution:</p>
                             <p className="text-gray-700 mb-4">Custom scoring model integrating telecom, utility bills, and social graph data</p>
@@ -169,7 +169,7 @@ export default function Resources() {
                             <h3 className="text-xl font-bold text-gray-900">AI-Powered Recruitment Assistant</h3>
                         </div>
                         <div className="mb-6">
-                            <p className="text-sm font-semibold text-red-600 mb-2">Challenge:</p>
+                            <p className="text-sm font-semibold text-[#192DA0]  mb-2">Challenge:</p>
                             <p className="text-gray-700 mb-4">Recruiters overwhelmed by resume screening, poor candidate matching</p>
                             <p className="text-sm font-semibold text-blue-600 mb-2">Solution:</p>
                             <p className="text-gray-700 mb-4">NLP-based resume parsing, role matching using embeddings</p>

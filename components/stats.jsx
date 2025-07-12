@@ -11,7 +11,7 @@ export default function StatsSection() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Stat 1 */}
-          <div className="text-center p-6 rounded-xl bg-gradient-to-br from-primary/20 to-purple-600/20 border border-primary/30">
+          <div className="text-center p-6 rounded-xl bg-gradient-to-br from-primary/20 to-[#6f6f7d]/20 border border-primary/30">
             <div className="text-4xl font-bold text-primary mb-2">80%</div>
             <p className="text-gray-300">Enterprise workloads will be AI-powered by 2026</p>
             <p className="text-sm text-gray-400 mt-2">— Gartner</p>
@@ -32,7 +32,7 @@ export default function StatsSection() {
           </div>
 
           {/* Stat 4 */}
-          <div className="text-center p-6 rounded-xl bg-gradient-to-br from-pink-600/20 to-purple-600/20 border border-pink-600/30">
+          <div className="text-center p-6 rounded-xl bg-gradient-to-br from-pink-600/20 to-[#6f6f7d]/20 border border-pink-600/30">
             <div className="text-4xl font-bold text-pink-400 mb-2">90%</div>
             <p className="text-gray-300">Of unstructured data is yet to be mined</p>
             <p className="text-sm text-gray-400 mt-2">— We help you harness it</p>

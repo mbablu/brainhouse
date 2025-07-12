@@ -28,7 +28,7 @@ export default function WhyBrainHouse() {
 
             {/* Item 2 */}
             <div className="flex items-start space-x-4">
-              <div className="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+              <div className="w-8 h-8 bg-[#6f6f7d] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                 <svg
                   className="w-4 h-4 text-white"
                   xmlns="http://www.w3.org/2000/svg"

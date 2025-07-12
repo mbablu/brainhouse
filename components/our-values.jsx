@@ -5,7 +5,7 @@ export default function OurValues() {
     <section id="values" className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-secondary mb-6">
+          <h2 className="text-4xl font-bold text-[#192DA0] mb-6">
             Passionate About People, Obsessed with Possibilities
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto">
@@ -42,7 +42,7 @@ export default function OurValues() {
 
           {/* Card 3 */}
           <div className="bg-gradient-to-br from-purple-50 to-pink-100 p-8 rounded-2xl border border-purple-200 text-center">
-            <i className="text-4xl text-purple-600 mb-6 inline-block">
+            <i className="text-4xl text-[#6f6f7d] mb-6 inline-block">
               <svg className="w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
                 <path d="M256 0c4.6 0 9.2 1 13.4 2.9L457.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.6 363.2c-16.7 8-36.1 8-52.8 0C57.3 420.7 16.5 239.2 16 140c-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.8 1 251.4 0 256 0zm0 66.8V444.8C394 378 431.1 230.1 432 141.4L256 66.8l0 0z" />
               </svg>

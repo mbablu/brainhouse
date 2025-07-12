@@ -80,7 +80,7 @@ export default function AiConsultingDevelopment() {
         <section id="services-overview" className="py-20 bg-gray-50">
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
             <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold text-gray-900 mb-4">What We Offer</h2>
+              <h2 className="text-4xl font-bold text-[#192DA0] mb-4">What We Offer</h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                 Comprehensive AI solutions designed to transform your business operations and deliver measurable results
               </p>
@@ -111,7 +111,7 @@ export default function AiConsultingDevelopment() {
 
               <div id="chatbot-card" className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition-shadow">
                 <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
-                  <Bot className="text-purple-600 text-xl" size={24} />
+                  <Bot className="text-[#6f6f7d] text-xl" size={24} />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">Chatbot Development</h3>
                 <p className="text-gray-600 mb-4">NLP-powered bots that understand, learn, and act—supporting multichannel conversations across web, WhatsApp, Facebook, and internal systems.</p>
@@ -154,7 +154,7 @@ export default function AiConsultingDevelopment() {
 
         <section id="stats-section" className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-6">
-            <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Why It Matters</h2>
+            <h2 className="text-3xl font-bold text-center text-[#192DA0]  mb-12">Why It Matters</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div id="stat-1" className="text-center">
                 <div className="text-4xl font-bold text-blue-600 mb-2">89%</div>
@@ -179,7 +179,7 @@ export default function AiConsultingDevelopment() {
 
         <section id="why-brainhouse" className="py-20 bg-white">
           <div className="max-w-7xl mx-auto px-6">
-            <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">Why BrainHouse</h2>
+            <h2 className="text-4xl font-bold text-center text-[#192DA0]  mb-16">Why BrainHouse</h2>
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div id="features-list" className="space-y-8">
                 <div className="flex items-start space-x-4">
@@ -233,7 +233,7 @@ export default function AiConsultingDevelopment() {
 
         <section id="industries" className="py-20 bg-gray-50">
           <div className="max-w-7xl mx-auto px-6 text-center">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Industries We Empower with AI</h2>
+            <h2 className="text-4xl font-bold text-[#192DA0] mb-4">Industries We Empower with AI</h2>
             <p className="text-xl text-gray-600 mb-12">Delivering intelligent solutions across critical sectors</p>
             
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">

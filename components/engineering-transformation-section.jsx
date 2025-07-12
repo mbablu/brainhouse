@@ -4,7 +4,7 @@ export default function EngineeringTransform() {
       <div className="max-w-6xl mx-auto px-6">
         {/* Heading */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-secondary mb-6">Engineering Transformation</h2>
+          <h2 className="text-4xl font-bold text-[#192DA0] mb-6">Engineering Transformation</h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
             At Brainhouse, we don't just build AI solutions. We engineer transformation. We are an
             AI-first company driven by purpose and powered by passion. Our mission? To unlock human
@@ -35,7 +35,7 @@ export default function EngineeringTransform() {
 
           {/* Card 2 */}
           <div className="text-center p-8 rounded-2xl bg-gradient-to-br from-purple-50 to-pink-50 border border-purple-100">
-            <div className="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-6">
+            <div className="w-16 h-16 bg-[#6f6f7d] rounded-full flex items-center justify-center mx-auto mb-6">
               <svg
                 className="w-8 h-8 text-white"
                 xmlns="http://www.w3.org/2000/svg"

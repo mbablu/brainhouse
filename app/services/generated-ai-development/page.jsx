@@ -10,7 +10,7 @@ export default function GeneratedAiDevelopment() {
 
   return (
     <>
-        <section id="hero-section" className="bg-gradient-to-br from-blue-600 to-purple-600 text-white py-24 lg:pt-40">
+        <section id="hero-section" className="bg-gradient-to-br from-blue-600 to-blue-600 text-white py-24 lg:pt-40">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center">
                 <h1 className="text-5xl md:text-6xl font-bold mb-6">
@@ -36,7 +36,7 @@ export default function GeneratedAiDevelopment() {
         <section id="what-we-offer" className="py-20 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                <h2 className="text-4xl font-bold text-brain-gray mb-4">What We Offer</h2>
+                <h2 className="text-4xl font-bold text-[#192DA0]  mb-4">What We Offer</h2>
                 <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                     Our comprehensive GenAI solutions span from strategic consulting to implementation
                 </p>
@@ -54,7 +54,7 @@ export default function GeneratedAiDevelopment() {
                 </div>
 
                 <div id="solutions-card" className="bg-gray-50 p-8 rounded-2xl hover:shadow-lg transition-shadow">
-                    <div className="w-16 h-16 bg-purple-600 rounded-xl flex items-center justify-center mb-6">
+                    <div className="w-16 h-16 bg-[#6f6f7d] rounded-xl flex items-center justify-center mb-6">
                     <Settings className="text-white text-2xl w-8 h-8" />
                     </div>
                     <h3 className="text-2xl font-bold text-brain-gray mb-4">Generative AI Solutions</h3>
@@ -121,7 +121,7 @@ export default function GeneratedAiDevelopment() {
         <section id="why-it-matters" className="py-20 bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-brain-gray mb-4">Why It Matters</h2>
+                    <h2 className="text-4xl font-bold text-[#192DA0]  mb-4">Why It Matters</h2>
                     <p className="text-xl text-gray-600">The impact of Generative AI on business performance</p>
                 </div>
 
@@ -158,7 +158,7 @@ export default function GeneratedAiDevelopment() {
         <section id="why-brainhouse" className="py-20 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-brain-gray mb-4">Why BrainHouse</h2>
+                    <h2 className="text-4xl font-bold text-[#192DA0]  mb-4">Why BrainHouse</h2>
                     <p className="text-xl text-gray-600">What sets us apart in the GenAI landscape</p>
                 </div>
 
@@ -177,7 +177,7 @@ export default function GeneratedAiDevelopment() {
 
                     <div id="reason-2" className="flex">
                         <div className="flex-shrink-0">
-                            <div className="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center">
+                            <div className="w-12 h-12 bg-[#6f6f7d] rounded-lg flex items-center justify-center">
                                 <i className="text-white" data-fa-i2svg=""><svg className="w-5 h-5 svg-inline--fa fa-lock" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="lock" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"></path></svg></i>
                             </div>
                         </div>

@@ -43,7 +43,7 @@ export default function DataScience() {
 
         <section id="mission" className="py-20 bg-white">
             <div className="max-w-4xl mx-auto px-6 text-center">
-                <h2 className="text-3xl font-bold text-dark mb-6">Our Mission</h2>
+                <h2 className="text-3xl font-bold text-[#192DA0]  mb-6">Our Mission</h2>
                 <p className="text-lg text-gray-600 leading-relaxed">
                     At BrainHouse, we believe that data is not just the new oil—it's the fuel for next-generation business intelligence. Our Data Science &amp; Machine Learning services empower you to unlock insights, automate operations, predict outcomes, and scale confidently across industries. Whether you're building data lakes, deploying predictive models, or modernizing architecture, we bring the tools, talent, and tenacity to lead your transformation.
                 </p>
@@ -54,7 +54,7 @@ export default function DataScience() {
         <section id="services" className="py-20 bg-white">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-dark mb-4">What We Offer</h2>
+                    <h2 className="text-4xl font-bold text-[#192DA0]   mb-4">What We Offer</h2>
                     <p className="text-lg text-gray-600">Comprehensive data solutions for the modern enterprise</p>
                 </div>
                 
@@ -165,7 +165,7 @@ export default function DataScience() {
         <section id="statistics" className="py-20 bg-white">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-dark mb-4">Why It Matters</h2>
+                    <h2 className="text-4xl font-bold text-[#192DA0]   mb-4">Why It Matters</h2>
                     <p className="text-lg text-gray-600">The data speaks for itself</p>
                 </div>
                 
@@ -197,14 +197,14 @@ export default function DataScience() {
         <section id="why-brainhouse" className="py-20 bg-white">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-dark mb-4">Why BrainHouse</h2>
+                    <h2 className="text-4xl font-bold text-[#192DA0]   mb-4">Why BrainHouse</h2>
                     <p className="text-lg text-gray-600">What sets us apart in the data science landscape</p>
                 </div>
                 
                 <div className="grid lg:grid-cols-2 gap-12">
                     <div className="space-y-8">
                         <div id="advantage-1" className="flex items-start space-x-4">
-                            <div className="w-12 h-12 bg-[#4338ca]/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <div className="w-12 h-12 bg-[#192da0]/10 rounded-lg flex items-center justify-center flex-shrink-0">
                                 <i className="text-primary" data-fa-i2svg=""><svg className="w-4 h-4 svg-inline--fa fa-users" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="users" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192h42.7c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0H21.3C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7h42.7C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3H405.3zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352H378.7C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7H154.7c-14.7 0-26.7-11.9-26.7-26.7z"></path></svg></i>
                             </div>
                             <div>
@@ -224,7 +224,7 @@ export default function DataScience() {
                         </div>
                         
                         <div id="advantage-3" className="flex items-start space-x-4">
-                            <div className="w-12 h-12 bg-[#4338ca]/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <div className="w-12 h-12 bg-[#192da0]/10 rounded-lg flex items-center justify-center flex-shrink-0">
                                 <i className="text-secondary" data-fa-i2svg=""><svg className="w-4 h-4 svg-inline--fa fa-cloud" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cloud" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M0 336c0 79.5 64.5 144 144 144H512c70.7 0 128-57.3 128-128c0-61.9-44-113.6-102.4-125.4c4.1-10.7 6.4-22.4 6.4-34.6c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32C167.6 32 96 103.6 96 192c0 2.7 .1 5.4 .2 8.1C40.2 219.8 0 273.2 0 336z"></path></svg></i>
                             </div>
                             <div>

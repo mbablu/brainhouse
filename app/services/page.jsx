@@ -33,7 +33,7 @@ export default function Services() {
         <section id="services-overview" className="py-20 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-gray-900 mb-6">Our AI Services</h2>
+                    <h2 className="text-4xl font-bold text-[#192DA0]  mb-6">Our AI Services</h2>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                         Comprehensive AI solutions designed to accelerate your digital transformation and unlock unprecedented business value.
                     </p>
@@ -104,7 +104,7 @@ export default function Services() {
         <section id="ai-consulting-details" className="py-20 bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-gray-900 mb-6">AI Consulting &amp; Development</h2>
+                    <h2 className="text-4xl font-bold text-[#192DA0]  mb-6">AI Consulting &amp; Development</h2>
                     <p className="text-xl text-gray-600 max-w-4xl mx-auto">
                         At Brainhouse, AI isn't just a tool—it's a mindset. Our comprehensive AI services help businesses envision, design, and implement intelligent solutions that deliver real-world value.
                     </p>
@@ -183,7 +183,7 @@ export default function Services() {
         <section id="genai-details" className="py-20 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-gray-900 mb-6">Generative AI Development</h2>
+                    <h2 className="text-4xl font-bold text-[#192DA0]  mb-6">Generative AI Development</h2>
                     <p className="text-xl text-gray-600 max-w-4xl mx-auto">
                         Generative AI is reshaping how businesses create, engage, and deliver value. We bring GenAI to life through purpose-driven solutions that amplify human creativity and supercharge productivity.
                     </p>
@@ -204,15 +204,15 @@ export default function Services() {
                     </div>
 
                     <div id="genai-solutions" className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-8 border border-purple-100">
-                        <div className="bg-purple-600 text-white p-3 rounded-lg w-fit mb-4">
+                        <div className="bg-[#6f6f7d] text-white p-3 rounded-lg w-fit mb-4">
                             <i className="text-xl" data-fa-i2svg=""><svg className="svg-inline--fa w-5 h-5 fa-wand-magic-sparkles" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="wand-magic-sparkles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M234.7 42.7L197 56.8c-3 1.1-5 4-5 7.2s2 6.1 5 7.2l37.7 14.1L248.8 123c1.1 3 4 5 7.2 5s6.1-2 7.2-5l14.1-37.7L315 71.2c3-1.1 5-4 5-7.2s-2-6.1-5-7.2L277.3 42.7 263.2 5c-1.1-3-4-5-7.2-5s-6.1 2-7.2 5L234.7 42.7zM46.1 395.4c-18.7 18.7-18.7 49.1 0 67.9l34.6 34.6c18.7 18.7 49.1 18.7 67.9 0L529.9 116.5c18.7-18.7 18.7-49.1 0-67.9L495.3 14.1c-18.7-18.7-49.1-18.7-67.9 0L46.1 395.4zM484.6 82.6l-105 105-23.3-23.3 105-105 23.3 23.3zM7.5 117.2C3 118.9 0 123.2 0 128s3 9.1 7.5 10.8L64 160l21.2 56.5c1.7 4.5 6 7.5 10.8 7.5s9.1-3 10.8-7.5L128 160l56.5-21.2c4.5-1.7 7.5-6 7.5-10.8s-3-9.1-7.5-10.8L128 96 106.8 39.5C105.1 35 100.8 32 96 32s-9.1 3-10.8 7.5L64 96 7.5 117.2zm352 256c-4.5 1.7-7.5 6-7.5 10.8s3 9.1 7.5 10.8L416 416l21.2 56.5c1.7 4.5 6 7.5 10.8 7.5s9.1-3 10.8-7.5L480 416l56.5-21.2c4.5-1.7 7.5-6 7.5-10.8s-3-9.1-7.5-10.8L480 352l-21.2-56.5c-1.7-4.5-6-7.5-10.8-7.5s-9.1 3-10.8 7.5L416 352l-56.5 21.2z"></path></svg></i>
                         </div>
                         <h3 className="text-xl font-semibold text-gray-900 mb-3">Generative AI Solutions</h3>
                         <p className="text-gray-600 mb-4">End-to-end generative applications using GPT, DALL·E, and Stable Diffusion.</p>
                         <ul className="space-y-2 text-gray-600">
-                            <li className="flex items-center"><i className="text-purple-600 mr-2" data-fa-i2svg=""><svg className="svg-inline--fa fa-check w-3 h-3" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>Automated design generation</li>
-                            <li className="flex items-center"><i className="text-purple-600 mr-2" data-fa-i2svg=""><svg className="svg-inline--fa fa-check w-3 h-3" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>Intelligent co-pilots</li>
-                            <li className="flex items-center"><i className="text-purple-600 mr-2" data-fa-i2svg=""><svg className="svg-inline--fa fa-check w-3 h-3" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>Document automation</li>
+                            <li className="flex items-center"><i className="text-[#6f6f7d] mr-2" data-fa-i2svg=""><svg className="svg-inline--fa fa-check w-3 h-3" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>Automated design generation</li>
+                            <li className="flex items-center"><i className="text-[#6f6f7d] mr-2" data-fa-i2svg=""><svg className="svg-inline--fa fa-check w-3 h-3" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>Intelligent co-pilots</li>
+                            <li className="flex items-center"><i className="text-[#6f6f7d] mr-2" data-fa-i2svg=""><svg className="svg-inline--fa fa-check w-3 h-3" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></i>Document automation</li>
                         </ul>
                     </div>
 
@@ -270,7 +270,7 @@ export default function Services() {
         <section id="why-brainhouse" className="py-20 bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-gray-900 mb-6">Why Choose Brainhouse</h2>
+                    <h2 className="text-4xl font-bold text-[#192DA0]  mb-6">Why Choose Brainhouse</h2>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                         Our expertise, methodology, and commitment to excellence make us the ideal partner for your AI transformation journey.
                     </p>

@@ -36,7 +36,7 @@ export default function CyberDefense() {
         <section id="services-overview" className="py-20 bg-white">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-gray-900 mb-4">What We Offer</h2>
+                    <h2 className="text-4xl font-bold text-[#192DA0] mb-4">What We Offer</h2>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                         We fuse deep tech expertise with intuitive design to deliver software that performs and learns
                     </p>
@@ -67,7 +67,7 @@ export default function CyberDefense() {
 
                     <div id="chatbot-card" className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition-shadow">
                         <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
-                            <i className="text-purple-600 text-xl" data-fa-i2svg=""><svg className="w-6 h-6 svg-inline--fa fa-robot" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="robot" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M320 0c17.7 0 32 14.3 32 32V96H472c39.8 0 72 32.2 72 72V440c0 39.8-32.2 72-72 72H168c-39.8 0-72-32.2-72-72V168c0-39.8 32.2-72 72-72H288V32c0-17.7 14.3-32 32-32zM208 384c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H208zm96 0c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H304zm96 0c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H400zM264 256a40 40 0 1 0 -80 0 40 40 0 1 0 80 0zm152 40a40 40 0 1 0 0-80 40 40 0 1 0 0 80zM48 224H64V416H48c-26.5 0-48-21.5-48-48V272c0-26.5 21.5-48 48-48zm544 0c26.5 0 48 21.5 48 48v96c0 26.5-21.5 48-48 48H576V224h16z"></path></svg></i>
+                            <i className="text-[#6f6f7d] text-xl" data-fa-i2svg=""><svg className="w-6 h-6 svg-inline--fa fa-robot" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="robot" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M320 0c17.7 0 32 14.3 32 32V96H472c39.8 0 72 32.2 72 72V440c0 39.8-32.2 72-72 72H168c-39.8 0-72-32.2-72-72V168c0-39.8 32.2-72 72-72H288V32c0-17.7 14.3-32 32-32zM208 384c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H208zm96 0c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H304zm96 0c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H400zM264 256a40 40 0 1 0 -80 0 40 40 0 1 0 80 0zm152 40a40 40 0 1 0 0-80 40 40 0 1 0 0 80zM48 224H64V416H48c-26.5 0-48-21.5-48-48V272c0-26.5 21.5-48 48-48zm544 0c26.5 0 48 21.5 48 48v96c0 26.5-21.5 48-48 48H576V224h16z"></path></svg></i>
                         </div>
                         <h3 className="text-xl font-semibold text-gray-900 mb-4">Chatbot Development</h3>
                         <p className="text-gray-600 mb-4">NLP-powered bots that understand, learn, and act—supporting multichannel conversations across web, WhatsApp, Facebook, and internal systems.</p>
@@ -111,7 +111,7 @@ export default function CyberDefense() {
 
         <section id="stats-section" className="py-16 bg-gray-50">
             <div className="max-w-7xl mx-auto px-6">
-                <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Why It Matters</h2>
+                <h2 className="text-3xl font-bold text-center text-[#192DA0]  mb-12">Why It Matters</h2>
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <div id="stat-1" className="text-center">
                         <div className="text-4xl font-bold text-primary mb-2">89%</div>
@@ -136,7 +136,7 @@ export default function CyberDefense() {
 
         <section id="why-brainhouse" className="py-20 bg-white">
             <div className="max-w-7xl mx-auto px-6">
-                <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">Why BrainHouse</h2>
+                <h2 className="text-4xl font-bold text-center text-[#192DA0]  mb-16">Why BrainHouse</h2>
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                     <div id="features-list" className="space-y-8">
                         <div className="flex items-start space-x-4">
@@ -186,7 +186,7 @@ export default function CyberDefense() {
 
         <section id="industries" className="py-20 bg-gray-50">
             <div className="max-w-7xl mx-auto px-6 text-center">
-                <h2 className="text-4xl font-bold text-gray-900 mb-4">Industries We Empower with AI</h2>
+                <h2 className="text-4xl font-bold text-[#192DA0] mb-4">Industries We Empower with AI</h2>
                 <p className="text-xl text-gray-600 mb-12">Delivering intelligent solutions across critical sectors</p>
                 
                 <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">

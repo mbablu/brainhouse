@@ -4,7 +4,7 @@ export default function CtaSection() {
   return (
     <section
       id="cta"
-      className="py-20 bg-gradient-to-r from-[#6366f1] to-purple-600 text-white"
+      className="py-20 bg-gradient-to-r from-[#6366f1] to-[#6366f1] text-white"
     >
       <div className="max-w-4xl mx-auto px-6 text-center">
         <h2 className="text-4xl font-bold mb-6">Let's Engineer Intelligence</h2>

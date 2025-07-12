@@ -73,10 +73,10 @@ const Header = () => {
   return (
     <>
       <header 
-        className={`fixed bg-[#000] top-0 left-0 w-full z-50 transition-all duration-300 ${
+        className={`fixed bg-[#f5f7f7] top-0 left-0 w-full z-50 transition-all duration-300 ${
           isScrolled 
             ? 'bg-white shadow-lg backdrop-blur-sm transform translate-y-0' 
-            : 'bg-[#000] transform -translate-y-full'
+            : 'bg-[#f5f7f7] transform -translate-y-full'
         }`}
         style={{
           transform: isScrolled ? 'translateY(0)' : 'translateY(100%)',
@@ -91,7 +91,7 @@ const Header = () => {
                   {isScrolled ? (
                       <Image className='w-[200px]' src="/images/logo-light.svg" width={200} height={60} alt="logo" />
                     ) : (
-                      <Image className='w-[200px]' src="/images/logo-dark.svg" width={200} height={60} alt="logo" />
+                      <Image className='w-[200px]' src="/images/logo-light.svg" width={200} height={60} alt="logo" />
                     )}
                   
                 </Link>
@@ -113,8 +113,8 @@ const Header = () => {
               ))} */}
               <Link
                   href="/"
-                  className={`text-sm font-semibold transition-colors duration-300 hover:opacity-80 ${
-                    isScrolled ? 'text-gray-900' : 'text-white'
+                  className={`text-sm font-semibold transition-colors duration-300 hover:text-[#F20B1E] ${
+                    isScrolled ? 'text-[#192DA0]' : 'text-[#192DA0]'
                   }`}
                 >
                   Home
@@ -123,8 +123,8 @@ const Header = () => {
                 <div className="relative group">
                   <Link
                     href="/services"
-                    className={`items-center text-sm font-semibold transition-colors duration-300 hover:opacity-80 py-3 inline-flex ${
-                      isScrolled ? 'text-gray-900' : 'text-white'
+                    className={`items-center text-sm font-semibold transition-colors duration-300 hover:text-[#F20B1E] py-3 inline-flex ${
+                      isScrolled ? 'text-[#192DA0]' : 'text-[#192DA0]'
                     }`}
                   >
                     Services
@@ -134,7 +134,7 @@ const Header = () => {
                     <li>
                       <Link
                         href="/services/ai-consulting-development"
-                        className={`text-sm font-semibold transition-colors duration-300 hover:opacity-80 px-4 py-2 block hover:bg-gray-200 border-b border-gray-200`}
+                        className={`text-sm font-semibold transition-colors duration-300 text-[#192DA0] hover:text-[#F20B1E] px-4 py-2 block hover:bg-gray-200 border-b border-gray-200`}
                       >
                         AI Consulting Development
                       </Link>
@@ -142,7 +142,7 @@ const Header = () => {
                     <li>
                       <Link
                         href="/services/generated-ai-development"
-                        className={`text-sm font-semibold transition-colors duration-300 hover:opacity-80 px-4 py-2 block hover:bg-gray-200 border-b border-gray-200`}
+                        className={`text-sm font-semibold transition-colors duration-300 text-[#192DA0] hover:text-[#F20B1E] px-4 py-2 block hover:bg-gray-200 border-b border-gray-200`}
                       >
                         Generated AI Development
                       </Link>
@@ -150,7 +150,7 @@ const Header = () => {
                     <li>
                       <Link
                         href="/services/data-science"
-                        className={`text-sm font-semibold transition-colors duration-300 hover:opacity-80 px-4 py-2 block hover:bg-gray-200 border-b border-gray-200`}
+                        className={`text-sm font-semibold transition-colors duration-300 text-[#192DA0] hover:text-[#F20B1E] px-4 py-2 block hover:bg-gray-200 border-b border-gray-200`}
                       >
                         Data Science
                       </Link>
@@ -158,7 +158,7 @@ const Header = () => {
                     <li>
                       <Link
                         href="/services/cyber-defense"
-                        className={`text-sm font-semibold transition-colors duration-300 hover:opacity-80 px-4 py-2 block hover:bg-gray-200 border-b border-gray-200`}
+                        className={`text-sm font-semibold transition-colors duration-300 text-[#192DA0] hover:text-[#F20B1E] px-4 py-2 block hover:bg-gray-200 border-b border-gray-200`}
                       >
                         Cyber Defense
                       </Link>
@@ -166,7 +166,7 @@ const Header = () => {
                     <li>
                       <Link
                         href="/services/custom-software-development"
-                        className={`text-sm font-semibold transition-colors duration-300 hover:opacity-80 px-4 py-2 block hover:bg-gray-200`}
+                        className={`text-sm font-semibold transition-colors duration-300 text-[#192DA0] hover:text-[#F20B1E] px-4 py-2 block hover:bg-gray-200`}
                       >
                         Custom Software Development
                       </Link>
@@ -177,8 +177,8 @@ const Header = () => {
 
                 <Link
                   href="/industries"
-                  className={`text-sm font-semibold transition-colors duration-300 hover:opacity-80 ${
-                    isScrolled ? 'text-gray-900' : 'text-white'
+                  className={`text-sm font-semibold transition-colors duration-300 hover:text-[#F20B1E] ${
+                    isScrolled ? 'text-[#192DA0]' : 'text-[#192DA0]'
                   }`}
                 >
                   Industries
@@ -186,8 +186,8 @@ const Header = () => {
 
                 <Link
                   href="/resource"
-                  className={`text-sm font-semibold transition-colors duration-300 hover:opacity-80 ${
-                    isScrolled ? 'text-gray-900' : 'text-white'
+                  className={`text-sm font-semibold transition-colors duration-300 hover:text-[#F20B1E] ${
+                    isScrolled ? 'text-[#192DA0]' : 'text-[#192DA0]'
                   }`}
                 >
                   Case Study
@@ -195,28 +195,28 @@ const Header = () => {
 
                 <Link
                   href="/myth-busters"
-                  className={`text-sm font-semibold transition-colors duration-300 hover:opacity-80 ${
-                    isScrolled ? 'text-gray-900' : 'text-white'
+                  className={`text-sm font-semibold transition-colors duration-300 hover:text-[#F20B1E] ${
+                    isScrolled ? 'text-[#192DA0]' : 'text-[#192DA0]'
                   }`}
                 >
                   Myth Busters
                 </Link>
                 <Link
                   href="/about-us"
-                  className={`text-sm font-semibold transition-colors duration-300 hover:opacity-80 ${
-                    isScrolled ? 'text-gray-900' : 'text-white'
+                  className={`text-sm font-semibold transition-colors duration-300 hover:text-[#F20B1E] ${
+                    isScrolled ? 'text-[#192DA0]' : 'text-[#192DA0]'
                   }`}
                 >
                   About Us
                 </Link>
-              <Link href="/contact-us" className="bg-[#4338ca] cursor-pointer text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition-colors font-semibold text-sm">Brainstorm</Link>
+              <Link href="/contact-us" className="bg-[#192da0] cursor-pointer text-[#fff] px-6 py-2 rounded-lg hover:bg-indigo-700 transition-colors font-semibold text-sm">Brainstorm</Link>
             </nav>
 
             {/* Mobile Menu Button */}
             <button
               onClick={toggleMobileMenu}
               className={`md:hidden menu-toggle p-2 rounded-md transition-colors duration-300 ${
-                isScrolled ? 'text-gray-900' : 'text-white'
+                isScrolled ? 'text-[#192DA0]' : 'text-[#192DA0]'
               }`}
               aria-label="Toggle mobile menu"
             >
@@ -277,7 +277,7 @@ const Header = () => {
 
             <Link
                 href="/"
-                className="block py-2 px-4 text-lg font-medium text-gray-900 hover:bg-gray-100 rounded-md transition-colors duration-200"
+                className="block py-2 px-4 text-lg font-medium text-[#192DA0] hover:bg-gray-100 rounded-md transition-colors duration-200"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Home
@@ -286,7 +286,7 @@ const Header = () => {
               <div className="relative">
                 <Link
                   href="/services"
-                  className="block py-2 px-4 text-lg font-medium text-gray-900 hover:bg-gray-100 rounded-md transition-colors duration-200"
+                  className="block py-2 px-4 text-lg font-medium text-[#192DA0] hover:bg-gray-100 rounded-md transition-colors duration-200"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Services
@@ -296,7 +296,7 @@ const Header = () => {
                       <Link
                         onClick={() => setIsMobileMenuOpen(false)}
                         href="/services/ai-consulting-development"
-                        className={`text-sm font-semibold transition-colors duration-300 hover:opacity-80 pl-2 ml-7 px-4 py-2 block hover:bg-gray-200 border-b border-gray-200`}
+                        className={`text-sm font-semibold transition-colors text-[#192DA0] duration-300 hover:opacity-80 pl-2 ml-7 px-4 py-2 block hover:bg-gray-200 border-b border-gray-200`}
                       >
                         AI Consulting Development
                       </Link>
@@ -305,7 +305,7 @@ const Header = () => {
                       <Link
                         onClick={() => setIsMobileMenuOpen(false)}
                         href="/services/generated-ai-development"
-                        className={`text-sm font-semibold transition-colors duration-300 hover:opacity-80 pl-2 ml-7 px-4 py-2 block hover:bg-gray-200 border-b border-gray-200`}
+                        className={`text-sm font-semibold transition-colors text-[#192DA0] duration-300 hover:opacity-80 pl-2 ml-7 px-4 py-2 block hover:bg-gray-200 border-b border-gray-200`}
                       >
                         Generated AI Development
                       </Link>
@@ -314,7 +314,7 @@ const Header = () => {
                       <Link
                         onClick={() => setIsMobileMenuOpen(false)}
                         href="/services/data-science"
-                        className={`text-sm font-semibold transition-colors duration-300 hover:opacity-80 pl-2 ml-7 px-4 py-2 block hover:bg-gray-200 border-b border-gray-200`}
+                        className={`text-sm font-semibold transition-colors text-[#192DA0] duration-300 hover:opacity-80 pl-2 ml-7 px-4 py-2 block hover:bg-gray-200 border-b border-gray-200`}
                       >
                         Data Science
                       </Link>
@@ -323,7 +323,7 @@ const Header = () => {
                       <Link
                         onClick={() => setIsMobileMenuOpen(false)}
                         href="/services/cyber-defense"
-                        className={`text-sm font-semibold transition-colors duration-300 hover:opacity-80 pl-2 ml-7 px-4 py-2 block hover:bg-gray-200 border-b border-gray-200`}
+                        className={`text-sm font-semibold transition-colors text-[#192DA0] duration-300 hover:opacity-80 pl-2 ml-7 px-4 py-2 block hover:bg-gray-200 border-b border-gray-200`}
                       >
                         Cyber Defense
                       </Link>
@@ -332,7 +332,7 @@ const Header = () => {
                       <Link
                         onClick={() => setIsMobileMenuOpen(false)}
                         href="/services/custom-software-development"
-                        className={`text-sm font-semibold transition-colors duration-300 hover:opacity-80 pl-2 ml-7 px-4 py-2 block hover:bg-gray-200`}
+                        className={`text-sm font-semibold transition-colors text-[#192DA0] duration-300 hover:opacity-80 pl-2 ml-7 px-4 py-2 block hover:bg-gray-200`}
                       >
                         Custom Software Development
                       </Link>
@@ -342,33 +342,33 @@ const Header = () => {
               </div>
               <Link
                 href="/industries"
-                className="block py-2 px-4 text-lg font-medium text-gray-900 hover:bg-gray-100 rounded-md transition-colors duration-200"
+                className="block py-2 px-4 text-lg font-medium text-[#192DA0] hover:bg-gray-100 rounded-md transition-colors duration-200"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Industries
               </Link>
               <Link
                 href="/resource"
-                className="block py-2 px-4 text-lg font-medium text-gray-900 hover:bg-gray-100 rounded-md transition-colors duration-200"
+                className="block py-2 px-4 text-lg font-medium text-[#192DA0] hover:bg-gray-100 rounded-md transition-colors duration-200"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Case Study
+                Insight
               </Link>
               <Link
                 href="/myth-busters"
-                className="block py-2 px-4 text-lg font-medium text-gray-900 hover:bg-gray-100 rounded-md transition-colors duration-200"
+                className="block py-2 px-4 text-lg font-medium text-[#192DA0] hover:bg-gray-100 rounded-md transition-colors duration-200"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Myth Busters
+                Myth Buster
               </Link>
               <Link
                 href="/about-us"
-                className="block py-2 px-4 text-lg font-medium text-gray-900 hover:bg-gray-100 rounded-md transition-colors duration-200"
+                className="block py-2 px-4 text-lg font-medium text-[#192DA0] hover:bg-gray-100 rounded-md transition-colors duration-200"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 About Us
               </Link>
-            <Link href="/contact-us" className="bg-[#4338ca] mt-7 cursor-pointer text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition-colors font-semibold text-sm w-full block text-center">Brainstorm</Link>
+            <Link href="/contact-us" className="bg-[#192da0] mt-7 cursor-pointer text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition-colors font-semibold text-sm w-full block text-center">Brainstorm</Link>
           </nav>
         </div>
       </div>
