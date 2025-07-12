@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
           <div id="footer-brand" className="lg:col-span-1">
             <Link href="/" className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+              {/* <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
                 <svg
                   className="text-white text-lg w-5 h-7"
                   aria-hidden="true"
@@ -24,7 +24,8 @@ export default function Footer() {
                   />
                 </svg>
               </div>
-              <span className="text-2xl font-bold">brainhouse</span>
+              <span className="text-2xl font-bold">brainhouse</span> */}
+              <img className='w-[180px]' src="images/logo-dark.svg" alt="logo" />
             </Link>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Leading AI consulting and development company creating intelligent
@@ -301,10 +302,10 @@ export default function Footer() {
             <div className="flex items-center space-x-4 mt-4 md:mt-0">
               <span className="text-gray-400 text-sm">Contact:</span>
               <span className="text-blue-400 hover:text-blue-300 text-sm transition-colors cursor-pointer">
-                hello@ brainhouse.ai
+                info@brainhouse.net
               </span>
               <span className="text-blue-400 hover:text-blue-300 text-sm transition-colors cursor-pointer">
-                +1 (234) 567-890
+                +1 800-920-0350
               </span>
             </div>
           </div>
