@@ -109,12 +109,12 @@ export default function AboutUs() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl font-bold text-[#192DA0]  mb-6">Who We Are</h2>
-              <p className="text-gray-600 text-lg mb-6">
-               Brainhouse is more than a tech company—we are catalysts of transformation in a world rapidly reshaped by artificial intelligence. Founded by innovators and built by technologists, Brainhouse exists at the intersection of real-world impact and future-forward solutions.
-              </p>
               <p className="text-gray-600 text-lg mb-8">
-                From helping cities become smarter to equipping healthcare with predictive tools, we develop AI systems that don't just automate, but elevate.
+               BrainHouse was born from countless late-night conversations about what’s broken in today’s digital world—and how AI, when done right, could actually fix it. Today, we’re building tools that blend intelligence, ethics, and experience into one seamless solution. At BrainHouse, we believe the future belongs to those who make intelligence accessible, ethical, and actionable. That’s why we’re building more than just AI-powered tools—we’re creating systems that think with purpose and design that feels human. Whether it’s transforming how cities operate, how businesses grow, or how people connect, we’re here to make AI work for everyone. Powered by vision, built with integrity—BrainHouse is your partner in digital evolution. We don’t just talk about the future—we’re engineering it.
               </p>
+              {/* <p className="text-gray-600 text-lg mb-8">
+                From helping cities become smarter to equipping healthcare with predictive tools, we develop AI systems that don't just automate, but elevate.
+              </p> */}
               <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-xl border-l-4 border-blue-600">
                 <p className="text-lg font-medium text-gray-900 italic">
                   "At Brainhouse, we believe in designing AI that elevates lives—not just performance."

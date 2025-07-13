@@ -89,9 +89,9 @@ const Header = () => {
             <div className="flex-shrink-0">
               <Link href="/" className="flex items-center space-x-2">
                   {isScrolled ? (
-                      <Image className='w-[200px]' src="/images/logo-light.svg" width={200} height={60} alt="logo" />
+                      <Image className='w-[200px]' src="/images/brainhouse_Logo_Light.png" width={200} height={60} alt="logo" />
                     ) : (
-                      <Image className='w-[200px]' src="/images/logo-light.svg" width={200} height={60} alt="logo" />
+                      <Image className='w-[200px]' src="/images/brainhouse_Logo_Light.png" width={200} height={60} alt="logo" />
                     )}
                   
                 </Link>
@@ -136,7 +136,7 @@ const Header = () => {
                         href="/services/ai-consulting-development"
                         className={`text-sm font-semibold transition-colors duration-300 text-[#192DA0] hover:text-[#F20B1E] px-4 py-2 block hover:bg-gray-200 border-b border-gray-200`}
                       >
-                        AI Consulting Development
+                        AI Consulting
                       </Link>
                     </li>
                     <li>
@@ -144,7 +144,7 @@ const Header = () => {
                         href="/services/generated-ai-development"
                         className={`text-sm font-semibold transition-colors duration-300 text-[#192DA0] hover:text-[#F20B1E] px-4 py-2 block hover:bg-gray-200 border-b border-gray-200`}
                       >
-                        Generated AI Development
+                        Generative Ai
                       </Link>
                     </li>
                     <li>
@@ -168,7 +168,7 @@ const Header = () => {
                         href="/services/custom-software-development"
                         className={`text-sm font-semibold transition-colors duration-300 text-[#192DA0] hover:text-[#F20B1E] px-4 py-2 block hover:bg-gray-200`}
                       >
-                        Custom Software Development
+                        Software Development
                       </Link>
                     </li>
                     
@@ -298,7 +298,7 @@ const Header = () => {
                         href="/services/ai-consulting-development"
                         className={`text-sm font-semibold transition-colors text-[#192DA0] duration-300 hover:opacity-80 pl-2 ml-7 px-4 py-2 block hover:bg-gray-200 border-b border-gray-200`}
                       >
-                        AI Consulting Development
+                        AI Consulting
                       </Link>
                     </li>
                     <li>
@@ -307,7 +307,7 @@ const Header = () => {
                         href="/services/generated-ai-development"
                         className={`text-sm font-semibold transition-colors text-[#192DA0] duration-300 hover:opacity-80 pl-2 ml-7 px-4 py-2 block hover:bg-gray-200 border-b border-gray-200`}
                       >
-                        Generated AI Development
+                        Generative Ai
                       </Link>
                     </li>
                     <li>
@@ -334,7 +334,7 @@ const Header = () => {
                         href="/services/custom-software-development"
                         className={`text-sm font-semibold transition-colors text-[#192DA0] duration-300 hover:opacity-80 pl-2 ml-7 px-4 py-2 block hover:bg-gray-200`}
                       >
-                        Custom Software Development
+                        Software Development
                       </Link>
                     </li>
                     

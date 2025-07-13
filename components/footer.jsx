@@ -1,8 +1,48 @@
+
+"use client"
+import React, { useState } from 'react';
+import { X } from 'lucide-react';
 import Link from "next/link";
 import Image from 'next/image';
 // import logoDark from '/images/logo-dark.svg';
 
+
 export default function Footer() {
+  const [showPrivacyModal, setShowPrivacyModal] = useState(false);
+  const [showTermsModal, setShowTermsModal] = useState(false);
+
+  const Modal = ({ isOpen, onClose, title, children }) => {
+      if (!isOpen) return null;
+
+      return (
+        <div className="fixed inset-0 bg-black/50 bg-opacity-50 flex items-center justify-center p-4 z-50">
+          <div className="bg-white rounded-lg shadow-xl max-w-[85vw] lg:max-w-[70vw] w-full max-h-[90vh] overflow-hidden">
+            <div className="flex items-center justify-between px-4 py-3 border-b border-gray-200">
+              <h2 className="text-xl font-semibold text-gray-900">{title}</h2>
+              <button
+                onClick={onClose}
+                className="text-gray-400 hover:text-gray-600 transition-colors"
+              >
+                <X size={24} />
+              </button>
+            </div>
+            <div className="p-6 overflow-y-auto max-h-[60vh]">
+              {children}
+            </div>
+            {/* <div className="flex justify-end px-4 py-3 border-t border-gray-200">
+              <button
+                onClick={onClose}
+                className="px-4 py-2 bg-gray-900 text-white rounded-md hover:bg-gray-800 transition-colors"
+              >
+                Close
+              </button>
+            </div> */}
+          </div>
+        </div>
+      );
+    };
+
+
   return (
     <footer id="footer" className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-6 py-16">
@@ -27,7 +67,7 @@ export default function Footer() {
                 </svg>
               </div>
               <span className="text-2xl fonimages/logo-dark.svg"t-bold">brainhouse</span> */}
-              <Image className='w-[180px]' src="/images/logo-dark.svg" width={200} height={60} alt="logo" />
+              <Image className='w-[80px]' src="/images/brainhouse_Logo_signature_Dark.png" width={200} height={60} alt="logo" />
             </Link>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Leading AI consulting and development company creating intelligent
@@ -309,7 +349,7 @@ export default function Footer() {
               <p className="text-sm text-blue-100 mb-3">
                 Discover your AI readiness potential
               </p>
-              <span className="inline-flex items-center text-sm font-medium text-white hover:text-blue-200 transition-colors cursor-pointer">
+              <Link href="/contact-us" className="inline-flex items-center text-sm font-medium text-white hover:text-blue-200 transition-colors cursor-pointer">
                 Get Started
                 <svg
                   className="w-4 h-4 ml-2"
@@ -319,7 +359,7 @@ export default function Footer() {
                 >
                   <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32h306.7L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
                 </svg>
-              </span>
+              </Link>
             </div>
           </div>
         </div>
@@ -331,15 +371,12 @@ export default function Footer() {
                 © 2025 Brainhouse Inc. all rights reserved.
               </p>
               <div className="flex space-x-6">
-                <span className="text-gray-400 hover:text-white text-sm transition-colors cursor-pointer">
+                <button  onClick={() => setShowPrivacyModal(true)} className="text-gray-400 hover:text-white text-sm transition-colors cursor-pointer">
                   Privacy Policy
-                </span>
-                <span className="text-gray-400 hover:text-white text-sm transition-colors cursor-pointer">
+                </button>
+                <button onClick={() => setShowTermsModal(true)} className="text-gray-400 hover:text-white text-sm transition-colors cursor-pointer">
                   Terms of Service
-                </span>
-                {/* <span className="text-gray-400 hover:text-white text-sm transition-colors cursor-pointer">
-                  Cookie Policy
-                </span> */}
+                </button>
               </div>
             </div>
             <div className="flex items-center space-x-4 mt-4 md:mt-0">
@@ -353,6 +390,181 @@ export default function Footer() {
             </div>
           </div>
         </div>
+
+        {/* Privacy Policy Modal */}
+        <Modal 
+          isOpen={showPrivacyModal} 
+          onClose={() => setShowPrivacyModal(false)}
+          title="Privacy Policy"
+        >
+          <div className="space-y-6 text-gray-700 leading-relaxed">
+            <div className="mb-6">
+              <p className="text-base">
+                Brainhouse Inc. ("we," "us," or "our") is a Canadian corporation headquartered in Ontario, specializing in AI-powered digital solutions and other software development and architecture. We are committed to protecting your privacy and ensuring that your personal data is handled in a safe and responsible manner in compliance with applicable privacy laws, including the Personal Information Protection and Electronic Documents Act (PIPEDA) and, where applicable, the General Data Protection Regulation (GDPR).
+              </p>
+            </div>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">1. Information We Collect</h3>
+              <p className="mb-3">We collect the following types of personal data:</p>
+              <ul className="space-y-2 ml-4">
+                <li><strong>Identification Data:</strong> Full name, email address, phone number</li>
+                <li><strong>Account Data:</strong> Login credentials, preferences</li>
+                <li><strong>Financial Data:</strong> Payment and billing information (via secure third-party processors)</li>
+                <li><strong>Usage Data:</strong> IP address, device type, operating system, browser type, usage behavior</li>
+                <li><strong>Communication Data:</strong> Inquiries, feedback, support interactions</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">2. How We Use Your Information</h3>
+              <p className="mb-3">We use your information to:</p>
+              <ul className="space-y-2 ml-4">
+                <li>• Deliver and maintain our services</li>
+                <li>• Respond to inquiries and provide support</li>
+                <li>• Improve website and service functionality</li>
+                <li>• Ensure security and fraud prevention</li>
+                <li>• Comply with legal obligations</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">3. Data Sharing and Disclosure</h3>
+              <p className="mb-3">We may share your data with:</p>
+              <ul className="space-y-2 ml-4 mb-4">
+                <li>• Service providers (e.g., payment gateways, email service providers)</li>
+                <li>• Legal authorities when required</li>
+                <li>• Business partners (with your consent)</li>
+              </ul>
+              <p className="font-medium">We do not sell or rent personal data to third parties.</p>
+            </section>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">4. Cookies and Analytics</h3>
+              <p>We use cookies and analytics tools (e.g., Google Analytics) to monitor site traffic and user engagement. You can manage cookie preferences in your browser settings.</p>
+            </section>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">5. International Data Transfers</h3>
+              <p>Data may be transferred to or processed in countries outside your jurisdiction. We ensure appropriate safeguards (e.g., Standard Contractual Clauses) are in place for such transfers.</p>
+            </section>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">6. Your Rights</h3>
+              <p className="mb-3">Under applicable laws, you have the right to:</p>
+              <ul className="space-y-2 ml-4 mb-4">
+                <li>• Access and correct your personal data</li>
+                <li>• Withdraw consent</li>
+                <li>• Request deletion of your data</li>
+                <li>• File a complaint with a supervisory authority</li>
+              </ul>
+              <p>For requests, contact <a href="mailto:privacy@brainhouse.net" className="text-blue-600 hover:text-blue-800 underline">privacy@brainhouse.net</a>.</p>
+            </section>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">7. Security</h3>
+              <p>We use industry-standard encryption, firewalls, and access controls to safeguard your information.</p>
+            </section>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">8. Contact</h3>
+              <div className="bg-gray-50 p-4 rounded-lg">
+                <p className="font-medium">Brainhouse Inc.</p>
+                <p>Email: <a href="mailto:privacy@brainhouse.net" className="text-blue-600 hover:text-blue-800 underline">privacy@brainhouse.net</a></p>
+              </div>
+            </section>
+          </div>
+        </Modal>
+
+        {/* Terms of Service Modal */}
+        <Modal 
+          isOpen={showTermsModal} 
+          onClose={() => setShowTermsModal(false)}
+          title="Terms of Service"
+        >
+          <div className="space-y-6 text-gray-700 leading-relaxed">
+            <div className="mb-6">
+              <p className="text-base">
+                These Terms of Service ("Terms") govern your access and use of the website <a href="https://brainhouse.net" className="text-blue-600 hover:text-blue-800 underline">https://brainhouse.net</a> and all related AI-powered software, APIs, tools, and services provided by BrainHouse Inc. ("we," "us," or "our"). By accessing or using our platform, you agree to be bound by these Terms.
+              </p>
+            </div>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">1. Acceptance of Terms</h3>
+              <p>By using our services, you confirm that you are at least the age of majority in your province or territory and agree to comply with these Terms and applicable laws.</p>
+            </section>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">2. Services</h3>
+              <p>BrainHouse provides access to AI-based digital tools, analytics dashboards, APIs, and software-as-a-service (SaaS) offerings tailored to different industries.</p>
+            </section>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">3. User Responsibilities</h3>
+              <p className="mb-3">You agree to:</p>
+              <ul className="space-y-2 ml-4">
+                <li>• Use services only for lawful purposes</li>
+                <li>• Provide accurate account and payment information</li>
+                <li>• Maintain confidentiality of login credentials</li>
+                <li>• Not misuse or reverse-engineer our platform or AI models</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">4. Account and Subscription</h3>
+              <p>Some features require registration. Paid services may be offered as subscription plans. All payments are securely handled by third-party processors. Cancellation policies and billing cycles are defined at the time of purchase.</p>
+            </section>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">5. Intellectual Property</h3>
+              <p>All content, including code, design, graphics, AI models, and documentation, are the property of BrainHouse Inc. or its licensors. You may not reproduce or distribute any part of the services without express permission.</p>
+            </section>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">6. AI and Data Processing</h3>
+              <p>Our AI systems may process uploaded content and metadata to generate responses or analytics. You retain ownership of your data but grant us a license to process it for the intended functionality.</p>
+            </section>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">7. Disclaimers</h3>
+              <p>We make no warranties regarding uninterrupted access or accuracy of the AI outputs. All services are provided "as-is."</p>
+            </section>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">8. Limitation of Liability</h3>
+              <p>To the maximum extent permitted by law, BrainHouse Inc. shall not be liable for indirect or consequential damages, including data loss, arising from the use of our services.</p>
+            </section>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">9. Governing Law</h3>
+              <p>These Terms are governed by the laws of the Province of Ontario and the federal laws of Canada.</p>
+            </section>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">10. Termination</h3>
+              <p>We reserve the right to suspend or terminate your access if you breach these Terms or misuse the services.</p>
+            </section>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">11. Changes to Terms</h3>
+              <p>We may update these Terms at any time. Continued use of the site constitutes acceptance of the revised Terms.</p>
+            </section>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">12. Contact Us</h3>
+              <div className="bg-gray-50 p-4 rounded-lg">
+                <p className="font-medium">BrainHouse Inc.</p>
+                <p>Email: <a href="mailto:privacy@brainhouse.net" className="text-blue-600 hover:text-blue-800 underline">privacy@brainhouse.net</a></p>
+              </div>
+            </section>
+
+            <div className="mt-8 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-400">
+              <p className="text-sm text-blue-800">
+                <strong>Note:</strong> The Privacy Policy and Terms of Service for Brainhouse Inc. have been drafted, including SaaS and AI data processing clauses with governing jurisdiction set to Ontario, Canada.
+              </p>
+            </div>
+          </div>
+        </Modal>
       </div>
 
       

@@ -23,13 +23,13 @@ export default function HeroSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Side */}
           <div>
-            <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6">
+            <h1 className="text-4xl lg:text-5xl font-bold leading-tight mb-6">
               Brainhouse{' '}
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#5C6EFF] to-[#D28EFF]">
                An AI First Company
               </span>
             </h1>
-            <p className="text-xl lg:text-2xl text-gray-300 mb-10">
+            <p className="text-xl text-gray-300 mb-10">
               Where Intelligent Systems Meet Human Possibility
             </p>
             {/* <p className="text-lg text-gray-400 mb-8">AI. Engineered for Impact.</p> */}

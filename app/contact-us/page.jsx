@@ -90,8 +90,8 @@ At Brainhouse, we co-create AI-driven ecosystems tailored to your vision, whethe
                     </dl>
                 </div>
             </div>
-            <div className="px-6 pt-20 pb-24 sm:pb-32 lg:px-8 lg:py-48">
-                <img className='rounded-[4px]' src="images/brainhouse.png" alt="brainhouse" />
+            <div className="px-6 pt-20 pb-20 sm:pb-32 lg:px-8 lg:py-48">
+                <img className='rounded-[4px]' src="images/Dotted_world_map_Blue.svg" alt="brainhouse" />
             </div>
         </div>
         </div>

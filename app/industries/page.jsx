@@ -1,6 +1,7 @@
 'use client'
 import Image from 'next/image'
 import { Search, PenTool, Code, CheckCheck, Rocket, Headphones } from 'lucide-react';
+import Link from 'next/link';
 
 
 export default function Industries() {
@@ -316,7 +317,10 @@ export default function Industries() {
         <section id="cta-section" className="py-20 bg-gradient-to-r from-[#6366f1] to-[#8b5cf6]">
             <div className="max-w-4xl mx-auto px-6 text-center">
                 <h2 className="text-4xl font-bold text-white mb-6">Ready to Transform Your Industry?</h2>
-                <p className="text-xl text-blue-100 mb-8">Let's brainstorm</p>
+                {/* <p className="text-xl text-blue-100 mb-8">Let's brainstorm</p> */}
+                <Link href="contact-us" className="bg-white text-[#6f6f7d] px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition cyber-glow">
+                   Let's brainstorm
+                </Link>
             </div>
         </section>
 
