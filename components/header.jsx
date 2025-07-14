@@ -251,7 +251,8 @@ const Header = () => {
               </div>
               <span className="text-[18px] font-bold text-[#333333]">BrainHouse</span> */}
               {/* <img src="images/logo.png" alt="logo" /> */}
-              <Image className='w-[200px]' src="/images/logo-light.svg" width={200} height={60} alt="logo" />
+              {/* <Image className='w-[200px]' src="/images/logo-light.svg" width={200} height={60} alt="logo" /> */}
+              <Image className='w-[200px]' src="/images/brainhouse_Logo_Light.png" width={200} height={60} alt="logo" />
             </Link>
             <button
               onClick={toggleMobileMenu}
