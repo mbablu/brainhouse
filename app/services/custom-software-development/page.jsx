@@ -1,5 +1,7 @@
 'use client'
 
+import Link from "next/link"
+
 export default function CyberDefense() {
 
   return (
@@ -18,12 +20,12 @@ export default function CyberDefense() {
                         In the era of intelligent automation and hyper-personalization, custom software must do more than function—it must think, adapt, and evolve.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4">
-                        <button className="bg-primary text-white px-8 py-4 rounded-lg font-semibold hover:bg-secondary transition-colors">
+                        {/* <button className="bg-primary text-white px-8 py-4 rounded-lg font-semibold hover:bg-secondary transition-colors">
                             Start Your Project
                         </button>
                         <button className="border border-gray-300 text-gray-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
                             View Portfolio
-                        </button>
+                        </button> */}
                     </div>
                 </div>
                 <div id="hero-visual" className="relative">
@@ -212,17 +214,17 @@ export default function CyberDefense() {
         </section>
 
 
-        <section id="cta" className="py-20 bg-gradient-to-r from-primary to-secondary">
+        <section id="cta" className="py-20 bg-gradient-to-r from-[#1e40af] to-[#1e40af]">
             <div className="max-w-4xl mx-auto px-6 text-center">
                 <h2 className="text-4xl font-bold text-white mb-6">Ready to Build Your AI-Powered Solution?</h2>
                 <p className="text-xl text-blue-100 mb-8">Let's create software that thinks, adapts, and evolves with your business needs.</p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <button className="bg-white text-primary px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                    <Link href="/contact-us" className="bg-white text-primary px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
                         Start Your Project Today
-                    </button>
-                    <button className="border border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-primary transition-colors">
+                    </Link>
+                    {/* <button className="border border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-primary transition-colors">
                         Schedule Consultation
-                    </button>
+                    </button> */}
                 </div>
             </div>
         </section>

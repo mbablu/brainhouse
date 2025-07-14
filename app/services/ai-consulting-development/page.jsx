@@ -27,14 +27,14 @@ export default function AiConsultingDevelopment() {
                 Transform your business with intelligent solutions. From AI strategy to custom development, we deliver
                 precision-engineered AI that drives real-world value.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
+              {/* <div className="flex flex-col sm:flex-row gap-4">
                 <button className="bg-primary hover:bg-indigo-700 text-white px-8 py-4 rounded-lg font-semibold transition-colors">
                   Start Your AI Journey
                 </button>
                 <button className="border border-gray-400 text-gray-300 hover:bg-white hover:text-gray-900 px-8 py-4 rounded-lg font-semibold transition-colors">
                   View Case Studies
                 </button>
-              </div>
+              </div> */}
             </div>
 
             {/* Right Column */}
@@ -284,12 +284,12 @@ export default function AiConsultingDevelopment() {
             <h2 className="text-4xl font-bold text-white mb-6">Ready to Build Your AI-Powered Solution?</h2>
             <p className="text-xl text-blue-100 mb-8">Let's create software that thinks, adapts, and evolves with your business needs.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                Start Your Project Today
-              </button>
-              <button className="border border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+              <Link href="/contact-us" className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                 Schedule Consultation
+              </Link>
+              {/* <button className="border border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
                 Schedule Consultation
-              </button>
+              </button> */}
             </div>
           </div>
         </section>

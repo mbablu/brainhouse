@@ -13,21 +13,21 @@ export default function GeneratedAiDevelopment() {
         <section id="hero-section" className="bg-gradient-to-br from-blue-600 to-blue-600 text-white py-24 lg:pt-40">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center">
-                <h1 className="text-5xl md:text-6xl font-bold mb-6">
-                    Generative AI<br />
-                    <span className="text-blue-200">Development</span>
-                </h1>
-                <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto leading-relaxed">
-                    Generative AI is reshaping how businesses create, engage, and deliver value. We bring GenAI to life through purpose-driven solutions that amplify human creativity and supercharge productivity.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                    Get Started
-                    </button>
-                    <button className="border border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
-                    Learn More
-                    </button>
-                </div>
+                    <h1 className="text-5xl md:text-6xl font-bold mb-6">
+                        Generative AI<br />
+                        <span className="text-blue-200">Development</span>
+                    </h1>
+                    <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto leading-relaxed">
+                        Generative AI is reshaping how businesses create, engage, and deliver value. We bring GenAI to life through purpose-driven solutions that amplify human creativity and supercharge productivity.
+                    </p>
+                    {/* <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                        <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                        Get Started
+                        </button>
+                        <button className="border border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+                        Learn More
+                        </button>
+                    </div> */}
                 </div>
             </div>
         </section>
@@ -219,12 +219,12 @@ export default function GeneratedAiDevelopment() {
             <h2 className="text-4xl font-bold text-white mb-6">Ready to Build Your AI-Powered Solution?</h2>
             <p className="text-xl text-blue-100 mb-8">Let's create software that thinks, adapts, and evolves with your business needs.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                Start Your Project Today
-              </button>
-              <button className="border border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+              <Link href="/contact-us" className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
                 Schedule Consultation
-              </button>
+              </Link>
+              {/* <button className="border border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+                Schedule Consultation
+              </button> */}
             </div>
           </div>
         </section>

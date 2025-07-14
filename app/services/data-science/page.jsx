@@ -24,14 +24,14 @@ export default function DataScience() {
                         <p className="text-xl text-gray-300 mb-8 leading-relaxed">
                             Build competitive advantage with scalable, AI-powered infrastructure. From Data Swamps to Intelligence Goldmines.
                         </p>
-                        <div className="flex flex-col sm:flex-row gap-4">
+                        {/* <div className="flex flex-col sm:flex-row gap-4">
                             <button className="bg-accent text-dark px-8 py-3 rounded-lg font-semibold hover:bg-cyan-400 transition-colors">
                                 Start Your Transformation
                             </button>
                             <button className="border border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-dark transition-colors">
                                 View Case Studies
                             </button>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="relative">
                         <img className="w-full h-80 object-cover rounded-2xl shadow-2xl" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/eecc5d51b5-f2f6952a83d6b41ed7d7.png" alt="futuristic data visualization dashboard with AI neural networks and analytics charts in dark blue theme" />
@@ -162,7 +162,7 @@ export default function DataScience() {
         </section>
 
 
-        <section id="statistics" className="py-20 bg-white">
+        <section id="statistics" className="py-20 bg-[#f8f8f8]">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl font-bold text-[#192DA0]   mb-4">Why It Matters</h2>
@@ -270,12 +270,12 @@ export default function DataScience() {
             <h2 className="text-4xl font-bold text-white mb-6">Ready to Build Your AI-Powered Solution?</h2>
             <p className="text-xl text-blue-100 mb-8">Let's create software that thinks, adapts, and evolves with your business needs.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                Start Your Project Today
-              </button>
-              <button className="border border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+              <Link href="/contact-us" className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
                 Schedule Consultation
-              </button>
+              </Link>
+              {/* <button className="border border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+                Schedule Consultation
+              </button> */}
             </div>
           </div>
         </section>
