@@ -15,8 +15,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Brainhouse",
-  description: "Brainhouse website"
+  title: "Generative AI, Custom Software & AI Consulting Company | Brainhouse Inc. Canada",
+  description: "Brainhouse Inc. is a Canadian AI company offering Generative AI, machine learning, custom software, and cloud-native development for fintech, healthcare, and smart cities.",
+  other: {
+    keywords: "Generative AI Company Canada, AI Consulting and Development, Custom Software Development Canada, Machine Learning Services, Big Data Engineering, ChatGPT Integration for Business, AI Voice Agent Development, Smart City AI Solutions, Fintech AI Automation, Healthcare AI Analytics, AI Customer Experience Tools, Brainhouse AI Canada, AI for Logistics and Travel, Data Science and BI Services, AI Agent"
+  }
 };
 
 export default function RootLayout({ children }) {

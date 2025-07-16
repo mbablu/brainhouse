@@ -82,8 +82,8 @@ At Brainhouse, we co-create AI-driven ecosystems tailored to your vision, whethe
                         <EnvelopeIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
                         </dt>
                         <dd>
-                        <a href="mailto:hello@example.com" className="hover:text-white">
-                            info@brainhouse.net
+                        <a href="mailto:info@brainhouse.ai" className="hover:text-white">
+                            info@brainhouse.ai
                         </a>
                         </dd>
                     </div>
