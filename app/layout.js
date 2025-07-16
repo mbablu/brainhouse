@@ -15,10 +15,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Generative AI, Custom Software & AI Consulting Company | Brainhouse Inc. Canada",
-  description: "Brainhouse Inc. is a Canadian AI company offering Generative AI, machine learning, custom software, and cloud-native development for fintech, healthcare, and smart cities.",
+  title: "Brainhouse.ai – AI Consulting, Generative AI, Agentic AI, Big Data, ML & Secure Cloud Solutions",
+  description: "Brainhouse.ai delivers cutting-edge AI services: Generative AI, Agentic AI, custom AI applications, Big Data, ML, cloud security, and technical training. We serve fintech, healthcare, telecom, and more.",
   other: {
-    keywords: "Generative AI Company Canada, AI Consulting and Development, Custom Software Development Canada, Machine Learning Services, Big Data Engineering, ChatGPT Integration for Business, AI Voice Agent Development, Smart City AI Solutions, Fintech AI Automation, Healthcare AI Analytics, AI Customer Experience Tools, Brainhouse AI Canada, AI for Logistics and Travel, Data Science and BI Services, AI Agent"
+    keywords: "Generative AI, Agentic AI, AI agents, SYNTHex, SensiEYE, AI decision-making tool, AI monitoring application, AI reporting tool, AI data cleaning, AI data mining, AI reporting, AI training, AI technical demo, custom software development, custom AI application, AI for healthcare, AI in telecom, AI for travel industry, AI in entertainment, AI for fintech, AI for banking, AI for security, ChatGPT integration, large language models, prompt engineering, big data engineering, modern data architecture, data warehouse, data science services, business intelligence, AI readiness assessment, big data assessment, data mining tools, machine learning consulting, zero trust security, cloud security, Azure AI, AWS AI, Google Cloud AI, IBM Watson, custom AI development, multi-agent systems, AI consulting company Canada, AI integration services"
   }
 };
 
