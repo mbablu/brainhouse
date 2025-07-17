@@ -7,7 +7,7 @@ export default function CtaSection() {
       className="py-20 bg-gradient-to-r from-[#6366f1] to-[#6366f1] text-white"
     >
       <div className="max-w-4xl mx-auto px-6 text-center">
-        <h2 className="text-4xl font-bold mb-6">Let's Engineer Intelligence</h2>
+        <h2 className="text-3xl lg:text-4xl font-bold mb-6">Let's Engineer Intelligence</h2>
         <p className="text-xl mb-8 opacity-90">
           Join us in shaping a world where machines collaborate with humans, not replace them. Where insights are instant,
           decisions are data-backed, and experiences are deeply personal.

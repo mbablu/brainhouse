@@ -11,7 +11,7 @@ export default function Resources() {
         <section id="case-studies-hero" className="gradient-bg text-white py-20 pt-30">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center">
-                    <h1 className="text-4xl lg:text-5xl font-bold mb-6">Case Studies</h1>
+                    <h1 className="text-3xl lg:text-4xl lg:text-5xl font-bold mb-6">Case Studies</h1>
                     <p className="text-xl text-blue-100 max-w-4xl mx-auto leading-relaxed">
                         Real-world impact is the measure of success. Our AI-first philosophy and engineering-driven culture have helped organizations transform data into decisions, automate processes, and elevate experiences.
                     </p>
@@ -22,7 +22,7 @@ export default function Resources() {
         <section id="case-studies-grid" className="py-20 bg-white">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center mb-16">
-                    <h2 className="text-3xl font-bold text-[#192DA0]  mb-4">Industry-Leading Case Studies</h2>
+                    <h2 className="text-2xl lg:text-3xl font-bold text-[#192DA0]  mb-4">Industry-Leading Case Studies</h2>
                     <p className="text-gray-600">Powered by Machine Learning, Generative AI, and Big Data Engineering</p>
                 </div>
 

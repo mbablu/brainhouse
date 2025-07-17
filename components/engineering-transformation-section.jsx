@@ -4,7 +4,7 @@ export default function EngineeringTransform() {
       <div className="max-w-6xl mx-auto px-6">
         {/* Heading */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-[#192DA0] mb-6">Engineering Transformation</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold text-[#192DA0] mb-6">Engineering Transformation</h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
             At Brainhouse, we don't just build AI solutions. We engineer transformation. We are an
             AI-first company driven by purpose and powered by passion. Our mission? To unlock human

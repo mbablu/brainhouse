@@ -17,7 +17,7 @@ export default function AiConsultingDevelopment() {
           <div className="max-w-7xl mx-auto px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Column */}
             <div>
-              <h1 className="text-4xl lg:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+              <h1 className="text-3xl lg:text-4xl lg:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
                 AI Consulting &amp;{' '}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-700">
                   Development
@@ -56,19 +56,19 @@ export default function AiConsultingDevelopment() {
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
               <div id="stat-1" className="text-center">
-                <div className="text-4xl font-bold text-primary mb-2">40%</div>
+                <div className="text-3xl lg:text-4xl font-bold text-primary mb-2">40%</div>
                 <div className="text-gray-600">Faster Decision Velocity</div>
               </div>
               <div id="stat-2" className="text-center">
-                <div className="text-4xl font-bold text-primary mb-2">30%</div>
+                <div className="text-3xl lg:text-4xl font-bold text-primary mb-2">30%</div>
                 <div className="text-gray-600">Support Cost Reduction</div>
               </div>
               <div id="stat-3" className="text-center">
-                <div className="text-4xl font-bold text-primary mb-2">90%</div>
+                <div className="text-3xl lg:text-4xl font-bold text-primary mb-2">90%</div>
                 <div className="text-gray-600">Enterprise Data Underutilized</div>
               </div>
               <div id="stat-4" className="text-center">
-                <div className="text-4xl font-bold text-primary mb-2">$15.7T</div>
+                <div className="text-3xl lg:text-4xl font-bold text-primary mb-2">$15.7T</div>
                 <div className="text-gray-600">AI Economic Impact by 2030</div>
               </div>
             </div>
@@ -80,7 +80,7 @@ export default function AiConsultingDevelopment() {
         <section id="services-overview" className="py-20 bg-gray-50">
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
             <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold text-[#192DA0] mb-4">What We Offer</h2>
+              <h2 className="text-3xl lg:text-4xl font-bold text-[#192DA0] mb-4">What We Offer</h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                 Comprehensive AI solutions designed to transform your business operations and deliver measurable results
               </p>
@@ -157,19 +157,19 @@ export default function AiConsultingDevelopment() {
             <h2 className="text-3xl font-bold text-center text-[#192DA0]  mb-12">Why It Matters</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div id="stat-1" className="text-center">
-                <div className="text-4xl font-bold text-blue-600 mb-2">89%</div>
+                <div className="text-3xl lg:text-4xl font-bold text-blue-600 mb-2">89%</div>
                 <p className="text-gray-600">Companies compete primarily on customer experience</p>
               </div>
               <div id="stat-2" className="text-center">
-                <div className="text-4xl font-bold text-blue-600 mb-2">50%</div>
+                <div className="text-3xl lg:text-4xl font-bold text-blue-600 mb-2">50%</div>
                 <p className="text-gray-600">Improvement in user retention through AI personalization</p>
               </div>
               <div id="stat-3" className="text-center">
-                <div className="text-4xl font-bold text-blue-600 mb-2">70%</div>
+                <div className="text-3xl lg:text-4xl font-bold text-blue-600 mb-2">70%</div>
                 <p className="text-gray-600">Enterprise apps will use voice interfaces by 2026</p>
               </div>
               <div id="stat-4" className="text-center">
-                <div className="text-4xl font-bold text-blue-600 mb-2">30%</div>
+                <div className="text-3xl lg:text-4xl font-bold text-blue-600 mb-2">30%</div>
                 <p className="text-gray-600">Reduction in operational costs with intelligent automation</p>
               </div>
             </div>
@@ -179,7 +179,7 @@ export default function AiConsultingDevelopment() {
 
         <section id="why-brainhouse" className="py-20 bg-white">
           <div className="max-w-7xl mx-auto px-6">
-            <h2 className="text-4xl font-bold text-center text-[#192DA0]  mb-16">Why BrainHouse</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-center text-[#192DA0]  mb-16">Why BrainHouse</h2>
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div id="features-list" className="space-y-8">
                 <div className="flex items-start space-x-4">
@@ -233,7 +233,7 @@ export default function AiConsultingDevelopment() {
 
         <section id="industries" className="py-20 bg-gray-50">
           <div className="max-w-7xl mx-auto px-6 text-center">
-            <h2 className="text-4xl font-bold text-[#192DA0] mb-4">Industries We Empower with AI</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-[#192DA0] mb-4">Industries We Empower with AI</h2>
             <p className="text-xl text-gray-600 mb-12">Delivering intelligent solutions across critical sectors</p>
             
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -281,7 +281,7 @@ export default function AiConsultingDevelopment() {
 
         <section id="cta" className="py-20 bg-gradient-to-r from-blue-600 to-[#1e40af]">
           <div className="max-w-4xl mx-auto px-6 text-center">
-            <h2 className="text-4xl font-bold text-white mb-6">Ready to Build Your AI-Powered Solution?</h2>
+            <h2 className="text-2xl lg:text-3xl lg:text-4xl font-bold text-white mb-6">Ready to Build Your AI-Powered Solution?</h2>
             <p className="text-xl text-blue-100 mb-8">Let's create software that thinks, adapts, and evolves with your business needs.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact-us" className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">

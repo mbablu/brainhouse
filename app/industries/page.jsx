@@ -8,10 +8,10 @@ export default function Industries() {
 
   return (
     <>
-        <section id="hero" className="bg-gradient-to-br from-[#6366f1] to-[#8b5cf6] text-white min-h-[500px] py-20 flex items-center">
+        <section id="hero" className="bg-gradient-to-br from-[#6366f1] to-[#8b5cf6] text-white min-h-[500px] pt-30 pb-20 flex items-center">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center">
-                    <h1 className="text-4xl lg:text-5xl font-bold mb-6">Industries We Empower with AI</h1>
+                    <h1 className="text-3xl lg:text-4xl lg:text-5xl font-bold mb-6">Industries We Empower with AI</h1>
                     <p className="text-xl text-blue-100 max-w-3xl mx-auto mb-8">From precision in logistics to personalization in retail, our AI-powered innovations are redefining how industries think, respond, and evolve.</p>
                     <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                         <div id="critical-infrastructure" className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
@@ -44,7 +44,7 @@ export default function Industries() {
                             <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
                                 <i className="text-green-600 text-xl" data-fa-i2svg=""><svg className="svg-inline--fa fa-chart-line w-5 h-5" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chart-line" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z"></path></svg></i>
                             </div>
-                            <h2 className="text-3xl font-bold text-[#192DA0] ">AI Solutions for Fintech</h2>
+                            <h2 className="text-2xl lg:text-3xl font-bold text-[#192DA0] ">AI Solutions for Fintech</h2>
                         </div>
                         <h3 className="text-xl font-semibold text-gray-800 mb-4">Smart Finance for a Digital World</h3>
                         <p className="text-gray-600 mb-6">We transform financial operations through real-time fraud detection, automated risk profiling, intelligent advisory systems, and AI-powered credit scoring engines.</p>
@@ -104,7 +104,7 @@ export default function Industries() {
                             <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center">
                                 <i className="text-orange-600 text-xl" data-fa-i2svg=""><svg className="svg-inline--fa fa-truck w-5 h-5" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="truck" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M48 0C21.5 0 0 21.5 0 48V368c0 26.5 21.5 48 48 48H64c0 53 43 96 96 96s96-43 96-96H384c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V288 256 237.3c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H48zM416 160h50.7L544 237.3V256H416V160zM112 416a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm368-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg></i>
                             </div>
-                            <h2 className="text-3xl font-bold text-[#192DA0] ">AI Solutions for Logistics</h2>
+                            <h2 className="text-2xl lg:text-3xl font-bold text-[#192DA0] ">AI Solutions for Logistics</h2>
                         </div>
                         <h3 className="text-xl font-semibold text-gray-800 mb-4">Data-Driven Movement of Goods</h3>
                         <p className="text-gray-600 mb-6">From warehouse automation to intelligent fleet routing, we empower logistics providers with AI-powered efficiency, visibility, and optimization.</p>
@@ -158,7 +158,7 @@ export default function Industries() {
                             <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center">
                                 <i className="text-red-600 text-xl" data-fa-i2svg=""><svg className="svg-inline--fa fa-heart-pulse w-5 h-5" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart-pulse" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M228.3 469.1L47.6 300.4c-4.2-3.9-8.2-8.1-11.9-12.4h87c22.6 0 43-13.6 51.7-34.5l10.5-25.2 49.3 109.5c3.8 8.5 12.1 14 21.4 14.1s17.8-5 22-13.3L320 253.7l1.7 3.4c9.5 19 28.9 31 50.1 31H476.3c-3.7 4.3-7.7 8.5-11.9 12.4L283.7 469.1c-7.5 7-17.4 10.9-27.7 10.9s-20.2-3.9-27.7-10.9zM503.7 240h-132c-3 0-5.8-1.7-7.2-4.4l-23.2-46.3c-4.1-8.1-12.4-13.3-21.5-13.3s-17.4 5.1-21.5 13.3l-41.4 82.8L205.9 158.2c-3.9-8.7-12.7-14.3-22.2-14.1s-18.1 5.9-21.8 14.8l-31.8 76.3c-1.2 3-4.2 4.9-7.4 4.9H16c-2.6 0-5 .4-7.3 1.1C3 225.2 0 208.2 0 190.9v-5.8c0-69.9 50.5-129.5 119.4-141C165 36.5 211.4 51.4 244 84l12 12 12-12c32.6-32.6 79-47.5 124.6-39.9C461.5 55.6 512 115.2 512 185.1v5.8c0 16.9-2.8 33.5-8.3 49.1z"></path></svg></i>
                             </div>
-                            <h2 className="text-3xl font-bold text-[#192DA0] ">AI Solutions for Healthcare</h2>
+                            <h2 className="text-2xl lg:text-3xl font-bold text-[#192DA0] ">AI Solutions for Healthcare</h2>
                         </div>
                         <h3 className="text-xl font-semibold text-gray-800 mb-4">Smarter Care, Faster Diagnosis</h3>
                         <p className="text-gray-600 mb-6">We design clinical-grade AI tools that support physicians, streamline hospital operations, and improve patient outcomes—ethically and securely.</p>
@@ -210,7 +210,7 @@ export default function Industries() {
         <section id="digital-industries" className="py-20 bg-gray-50">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-[#192DA0] mb-4">Digital Experience Solutions</h2>
+                    <h2 className="text-3xl lg:text-4xl font-bold text-[#192DA0] mb-4">Digital Experience Solutions</h2>
                     <p className="text-xl text-gray-600">Transforming education, retail, travel, and entertainment with intelligent AI</p>
                 </div>
 
@@ -316,7 +316,7 @@ export default function Industries() {
 
         <section id="cta-section" className="py-20 bg-gradient-to-r from-[#6366f1] to-[#8b5cf6]">
             <div className="max-w-4xl mx-auto px-6 text-center">
-                <h2 className="text-4xl font-bold text-white mb-6">Ready to Transform Your Industry?</h2>
+                <h2 className="text-2xl lg:text-3xl lg:text-4xl font-bold text-white mb-6">Ready to Transform Your Industry?</h2>
                 {/* <p className="text-xl text-blue-100 mb-8">Let's brainstorm</p> */}
                 <Link href="contact-us" className="bg-white text-[#6f6f7d] px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition cyber-glow">
                    Let's brainstorm

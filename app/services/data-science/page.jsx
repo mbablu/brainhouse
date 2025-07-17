@@ -43,7 +43,7 @@ export default function DataScience() {
 
         <section id="mission" className="py-20 bg-white">
             <div className="max-w-4xl mx-auto px-6 text-center">
-                <h2 className="text-3xl font-bold text-[#192DA0]  mb-6">Our Mission</h2>
+                <h2 className="text-2xl lg:text-3xl font-bold text-[#192DA0]  mb-6">Our Mission</h2>
                 <p className="text-lg text-gray-600 leading-relaxed">
                     At BrainHouse, we believe that data is not just the new oil—it's the fuel for next-generation business intelligence. Our Data Science &amp; Machine Learning services empower you to unlock insights, automate operations, predict outcomes, and scale confidently across industries. Whether you're building data lakes, deploying predictive models, or modernizing architecture, we bring the tools, talent, and tenacity to lead your transformation.
                 </p>
@@ -54,7 +54,7 @@ export default function DataScience() {
         <section id="services" className="py-20 bg-white">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-[#192DA0]   mb-4">What We Offer</h2>
+                    <h2 className="text-3xl lg:text-4xl font-bold text-[#192DA0]   mb-4">What We Offer</h2>
                     <p className="text-lg text-gray-600">Comprehensive data solutions for the modern enterprise</p>
                 </div>
                 
@@ -120,7 +120,7 @@ export default function DataScience() {
         <section id="tech-stack" className="py-20 bg-dark text-white">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold mb-4">Our Technology Arsenal</h2>
+                    <h2 className="text-3xl lg:text-4xl font-bold mb-4">Our Technology Arsenal</h2>
                     <p className="text-lg text-gray-300">Cutting-edge tools for next-generation solutions</p>
                 </div>
                 
@@ -165,28 +165,28 @@ export default function DataScience() {
         <section id="statistics" className="py-20 bg-[#f8f8f8]">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-[#192DA0]   mb-4">Why It Matters</h2>
+                    <h2 className="text-3xl lg:text-4xl font-bold text-[#192DA0]   mb-4">Why It Matters</h2>
                     <p className="text-lg text-gray-600">The data speaks for itself</p>
                 </div>
                 
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <div id="stat-1" className="text-center">
-                        <div className="text-4xl font-bold text-primary mb-2">97.2%</div>
+                        <div className="text-3xl lg:text-4xl font-bold text-primary mb-2">97.2%</div>
                         <p className="text-gray-600">of organizations are investing in big data &amp; AI initiatives</p>
                     </div>
                     
                     <div id="stat-2" className="text-center">
-                        <div className="text-4xl font-bold text-accent mb-2">23X</div>
+                        <div className="text-3xl lg:text-4xl font-bold text-accent mb-2">23X</div>
                         <p className="text-gray-600">more likely to acquire customers when data-driven</p>
                     </div>
                     
                     <div id="stat-3" className="text-center">
-                        <div className="text-4xl font-bold text-secondary mb-2">33%</div>
+                        <div className="text-3xl lg:text-4xl font-bold text-secondary mb-2">33%</div>
                         <p className="text-gray-600">reduction in operational costs with real-time analytics</p>
                     </div>
                     
                     <div id="stat-4" className="text-center">
-                        <div className="text-4xl font-bold text-green-500 mb-2">20%</div>
+                        <div className="text-3xl lg:text-4xl font-bold text-green-500 mb-2">20%</div>
                         <p className="text-gray-600">increase in customer retention with predictive analytics</p>
                     </div>
                 </div>
@@ -197,7 +197,7 @@ export default function DataScience() {
         <section id="why-brainhouse" className="py-20 bg-white">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-[#192DA0]   mb-4">Why BrainHouse</h2>
+                    <h2 className="text-3xl lg:text-4xl font-bold text-[#192DA0]   mb-4">Why BrainHouse</h2>
                     <p className="text-lg text-gray-600">What sets us apart in the data science landscape</p>
                 </div>
                 
@@ -267,7 +267,7 @@ export default function DataScience() {
 
         <section id="cta" className="py-20 bg-gradient-to-r from-blue-600 to-[#1e40af]">
           <div className="max-w-4xl mx-auto px-6 text-center">
-            <h2 className="text-4xl font-bold text-white mb-6">Ready to Build Your AI-Powered Solution?</h2>
+            <h2 className="text-2xl lg:text-3xl lg:text-4xl font-bold text-white mb-6">Ready to Build Your AI-Powered Solution?</h2>
             <p className="text-xl text-blue-100 mb-8">Let's create software that thinks, adapts, and evolves with your business needs.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact-us" className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">

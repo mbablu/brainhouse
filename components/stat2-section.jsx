@@ -11,7 +11,7 @@ export default function StatsTwoSecton() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:max-w-none">
           <div className="text-center">
-            <h2 className="text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
+            <h2 className="text-3xl lg:text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
               Trusted by creators worldwide
             </h2>
             <p className="mt-4 text-lg/8 text-gray-300">Lorem ipsum dolor sit amet consect adipisicing possimus.</p>
