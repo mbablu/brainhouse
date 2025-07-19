@@ -36,7 +36,7 @@ export default function GeneratedAiDevelopment() {
         <section id="what-we-offer" className="py-20 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                <h2 className="text-4xl font-bold text-[#192DA0]  mb-4">What We Offer</h2>
+                <h2 className="text-3xl lg:text-4xl font-bold text-[#192DA0]  mb-4">What We Offer</h2>
                 <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                     Our comprehensive GenAI solutions span from strategic consulting to implementation
                 </p>
@@ -110,7 +110,7 @@ export default function GeneratedAiDevelopment() {
         <section id="differentiator" className="py-16 bg-[#1e40af] text-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <div className="flex items-center justify-center mb-6">
-                <Shield className="text-4xl mr-4 w-10 h-10" />
+                <Shield className="text-3xl lg:text-4xl mr-4 w-10 h-10" />
                 <h3 className="text-3xl font-bold">Key Differentiator</h3>
                 </div>
                 <p className="text-xl">Private cloud LLM deployments with zero data leakage</p>
@@ -121,7 +121,7 @@ export default function GeneratedAiDevelopment() {
         <section id="why-it-matters" className="py-20 bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-[#192DA0]  mb-4">Why It Matters</h2>
+                    <h2 className="text-3xl lg:text-4xl font-bold text-[#192DA0]  mb-4">Why It Matters</h2>
                     <p className="text-xl text-gray-600">The impact of Generative AI on business performance</p>
                 </div>
 
@@ -158,7 +158,7 @@ export default function GeneratedAiDevelopment() {
         <section id="why-brainhouse" className="py-20 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-[#192DA0]  mb-4">Why BrainHouse</h2>
+                    <h2 className="text-3xl lg:text-4xl font-bold text-[#192DA0]  mb-4">Why BrainHouse</h2>
                     <p className="text-xl text-gray-600">What sets us apart in the GenAI landscape</p>
                 </div>
 
@@ -216,7 +216,7 @@ export default function GeneratedAiDevelopment() {
 
         <section id="cta" className="py-20 bg-gradient-to-r from-blue-600 to-[#1e40af]">
           <div className="max-w-4xl mx-auto px-6 text-center">
-            <h2 className="text-4xl font-bold text-white mb-6">Ready to Build Your AI-Powered Solution?</h2>
+            <h2 className="text-2xl lg:text-3xl lg:text-4xl font-bold text-white mb-6">Ready to Build Your AI-Powered Solution?</h2>
             <p className="text-xl text-blue-100 mb-8">Let's create software that thinks, adapts, and evolves with your business needs.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact-us" className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">

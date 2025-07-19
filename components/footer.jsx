@@ -381,9 +381,12 @@ export default function Footer() {
             </div>
             <div className="flex items-center space-x-4 mt-4 md:mt-0">
               <span className="text-gray-400 text-sm">Contact:</span>
-              <span className="text-blue-400 hover:text-blue-300 text-sm transition-colors cursor-pointer">
-                info@brainhouse.net
-              </span>
+              {/* <span className="text-blue-400 hover:text-blue-300 text-sm transition-colors cursor-pointer">
+                info@brainhouse.ai
+              </span> */}
+              <a href="mailto:info@brainhouse.ai" className="text-blue-400 hover:text-blue-300 text-sm transition-colors cursor-pointer">
+                  info@brainhouse.ai
+              </a>
               <span className="text-blue-400 hover:text-blue-300 text-sm transition-colors cursor-pointer">
                 +1 800-920-0350
               </span>
@@ -458,7 +461,11 @@ export default function Footer() {
                 <li>• Request deletion of your data</li>
                 <li>• File a complaint with a supervisory authority</li>
               </ul>
-              <p>For requests, contact <a href="mailto:privacy@brainhouse.net" className="text-blue-600 hover:text-blue-800 underline">privacy@brainhouse.net</a>.</p>
+              <p>For requests, contact 
+                <a href="mailto:info@brainhouse.ai" className="text-blue-600 hover:text-blue-800 underline">
+                  info@brainhouse.ai
+                </a>
+                .</p>
             </section>
 
             <section>
@@ -470,7 +477,12 @@ export default function Footer() {
               <h3 className="text-xl font-semibold mb-4 text-gray-900">8. Contact</h3>
               <div className="bg-gray-50 p-4 rounded-lg">
                 <p className="font-medium">Brainhouse Inc.</p>
-                <p>Email: <a href="mailto:privacy@brainhouse.net" className="text-blue-600 hover:text-blue-800 underline">privacy@brainhouse.net</a></p>
+                <p>Email: 
+                  <a href="mailto:privacy@brainhouse.ai" className="text-blue-600 hover:text-blue-800 underline"></a>
+                  <a href="mailto:info@brainhouse.ai" className="text-blue-600 hover:text-blue-800 underline">
+                    info@brainhouse.ai
+                  </a>
+                  </p>
               </div>
             </section>
           </div>
@@ -485,7 +497,7 @@ export default function Footer() {
           <div className="space-y-6 text-gray-700 leading-relaxed">
             <div className="mb-6">
               <p className="text-base">
-                These Terms of Service ("Terms") govern your access and use of the website <a href="https://brainhouse.net" className="text-blue-600 hover:text-blue-800 underline">https://brainhouse.net</a> and all related AI-powered software, APIs, tools, and services provided by BrainHouse Inc. ("we," "us," or "our"). By accessing or using our platform, you agree to be bound by these Terms.
+                These Terms of Service ("Terms") govern your access and use of the website <a href="https://brainhouse.ai" className="text-blue-600 hover:text-blue-800 underline">https://brainhouse.ai</a> and all related AI-powered software, APIs, tools, and services provided by BrainHouse Inc. ("we," "us," or "our"). By accessing or using our platform, you agree to be bound by these Terms.
               </p>
             </div>
 
@@ -554,7 +566,7 @@ export default function Footer() {
               <h3 className="text-xl font-semibold mb-4 text-gray-900">12. Contact Us</h3>
               <div className="bg-gray-50 p-4 rounded-lg">
                 <p className="font-medium">BrainHouse Inc.</p>
-                <p>Email: <a href="mailto:privacy@brainhouse.net" className="text-blue-600 hover:text-blue-800 underline">privacy@brainhouse.net</a></p>
+                <p>Email: <a href="mailto:privacy@brainhouse.ai" className="text-blue-600 hover:text-blue-800 underline">privacy@brainhouse.ai</a></p>
               </div>
             </section>
 

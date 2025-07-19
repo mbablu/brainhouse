@@ -11,7 +11,7 @@ export default function Services() {
         <section id="hero" className="bg-gradient-to-br from-[#3B82F6] to-[#1E40AF] text-white h-[600px] flex items-center pt-[70px]">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center">
-                    <h1 className="text-4xl md:text-6xl font-bold mb-6">
+                    <h1 className="text-3xl lg:text-4xl md:text-6xl font-bold mb-6">
                         AI Solutions That <span className="text-accent">Transform</span> Business
                     </h1>
                     <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90">
@@ -33,7 +33,7 @@ export default function Services() {
         <section id="services-overview" className="py-20 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-[#192DA0]  mb-6">Our AI Services</h2>
+                    <h2 className="text-3xl lg:text-4xl font-bold text-[#192DA0]  mb-6">Our AI Services</h2>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                         Comprehensive AI solutions designed to accelerate your digital transformation and unlock unprecedented business value.
                     </p>
@@ -104,7 +104,7 @@ export default function Services() {
         <section id="ai-consulting-details" className="py-20 bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-[#192DA0]  mb-6">AI Consulting &amp; Development</h2>
+                    <h2 className="text-3xl lg:text-4xl font-bold text-[#192DA0]  mb-6">AI Consulting &amp; Development</h2>
                     <p className="text-xl text-gray-600 max-w-4xl mx-auto">
                         At Brainhouse, AI isn't just a tool—it's a mindset. Our comprehensive AI services help businesses envision, design, and implement intelligent solutions that deliver real-world value.
                     </p>
@@ -164,15 +164,15 @@ export default function Services() {
                     <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Why It Matters</h3>
                     <div className="grid md:grid-cols-3 gap-8">
                         <div className="text-center">
-                            <div className="text-4xl font-bold text-primary mb-2">90%</div>
+                            <div className="text-3xl lg:text-4xl font-bold text-primary mb-2">90%</div>
                             <p className="text-gray-600">of enterprise data is unstructured and underutilized</p>
                         </div>
                         <div className="text-center">
-                            <div className="text-4xl font-bold text-primary mb-2">40%</div>
+                            <div className="text-3xl lg:text-4xl font-bold text-primary mb-2">40%</div>
                             <p className="text-gray-600">boost in operational efficiency with AI</p>
                         </div>
                         <div className="text-center">
-                            <div className="text-4xl font-bold text-primary mb-2">$15.7T</div>
+                            <div className="text-3xl lg:text-4xl font-bold text-primary mb-2">$15.7T</div>
                             <p className="text-gray-600">projected AI contribution to global economy by 2030</p>
                         </div>
                     </div>
@@ -183,7 +183,7 @@ export default function Services() {
         <section id="genai-details" className="py-20 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-[#192DA0]  mb-6">Generative AI Development</h2>
+                    <h2 className="text-3xl lg:text-4xl font-bold text-[#192DA0]  mb-6">Generative AI Development</h2>
                     <p className="text-xl text-gray-600 max-w-4xl mx-auto">
                         Generative AI is reshaping how businesses create, engage, and deliver value. We bring GenAI to life through purpose-driven solutions that amplify human creativity and supercharge productivity.
                     </p>
@@ -247,19 +247,19 @@ export default function Services() {
                     <h3 className="text-2xl font-bold mb-8 text-center">GenAI Impact</h3>
                     <div className="grid md:grid-cols-4 gap-8">
                         <div className="text-center">
-                            <div className="text-4xl font-bold mb-2">66%</div>
+                            <div className="text-3xl lg:text-4xl font-bold mb-2">66%</div>
                             <p className="opacity-90">productivity boost for content creators</p>
                         </div>
                         <div className="text-center">
-                            <div className="text-4xl font-bold mb-2">60%</div>
+                            <div className="text-3xl lg:text-4xl font-bold mb-2">60%</div>
                             <p className="opacity-90">of teams implementing GenAI</p>
                         </div>
                         <div className="text-center">
-                            <div className="text-4xl font-bold mb-2">50%</div>
+                            <div className="text-3xl lg:text-4xl font-bold mb-2">50%</div>
                             <p className="opacity-90">reduction in development time</p>
                         </div>
                         <div className="text-center">
-                            <div className="text-4xl font-bold mb-2">80%</div>
+                            <div className="text-3xl lg:text-4xl font-bold mb-2">80%</div>
                             <p className="opacity-90">accuracy in task automation</p>
                         </div>
                     </div>
@@ -270,7 +270,7 @@ export default function Services() {
         <section id="why-brainhouse" className="py-20 bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-[#192DA0]  mb-6">Why Choose Brainhouse</h2>
+                    <h2 className="text-3xl lg:text-4xl font-bold text-[#192DA0]  mb-6">Why Choose Brainhouse</h2>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                         Our expertise, methodology, and commitment to excellence make us the ideal partner for your AI transformation journey.
                     </p>

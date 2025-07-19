@@ -14,7 +14,7 @@ export default function CyberDefense() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div className="text-white">
-                        <h1 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight">
+                        <h1 className="text-3xl lg:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
                             AI-Powered Cyber Defense: Where Innovation Meets <span className="text-yellow-300">Impenetrable Security</span>
                         </h1>
                         <p className="text-xl mb-8 text-gray-100">
@@ -38,7 +38,7 @@ export default function CyberDefense() {
         <section id="services" className="py-20 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-[#192DA0] mb-4">What We Offer</h2>
+                    <h2 className="text-3xl lg:text-4xl font-bold text-[#192DA0] mb-4">What We Offer</h2>
                     <p className="text-xl text-gray-600">Comprehensive AI-powered cybersecurity solutions</p>
                 </div>
                 
@@ -75,7 +75,7 @@ export default function CyberDefense() {
                             </div>
                             <div className="flex items-center justify-center">
                                 <div className="bg-purple-100 rounded-full p-8">
-                                    <i className="text-[#6f6f7d] text-4xl" data-fa-i2svg=""><svg className="w-7 h-7 svg-inline--fa fa-network-wired" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="network-wired" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M256 64H384v64H256V64zM240 0c-26.5 0-48 21.5-48 48v96c0 26.5 21.5 48 48 48h48v32H32c-17.7 0-32 14.3-32 32s14.3 32 32 32h96v32H80c-26.5 0-48 21.5-48 48v96c0 26.5 21.5 48 48 48H240c26.5 0 48-21.5 48-48V368c0-26.5-21.5-48-48-48H192V288H448v32H400c-26.5 0-48 21.5-48 48v96c0 26.5 21.5 48 48 48H560c26.5 0 48-21.5 48-48V368c0-26.5-21.5-48-48-48H512V288h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H352V192h48c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H240zM96 448V384H224v64H96zm320-64H544v64H416V384z"></path></svg></i>
+                                    <i className="text-[#6f6f7d]text-3xl lg:text-4xl" data-fa-i2svg=""><svg className="w-7 h-7 svg-inline--fa fa-network-wired" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="network-wired" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M256 64H384v64H256V64zM240 0c-26.5 0-48 21.5-48 48v96c0 26.5 21.5 48 48 48h48v32H32c-17.7 0-32 14.3-32 32s14.3 32 32 32h96v32H80c-26.5 0-48 21.5-48 48v96c0 26.5 21.5 48 48 48H240c26.5 0 48-21.5 48-48V368c0-26.5-21.5-48-48-48H192V288H448v32H400c-26.5 0-48 21.5-48 48v96c0 26.5 21.5 48 48 48H560c26.5 0 48-21.5 48-48V368c0-26.5-21.5-48-48-48H512V288h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H352V192h48c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H240zM96 448V384H224v64H96zm320-64H544v64H416V384z"></path></svg></i>
                                 </div>
                             </div>
                         </div>
@@ -113,7 +113,7 @@ export default function CyberDefense() {
                             </div>
                             <div className="flex items-center justify-center">
                                 <div className="bg-blue-100 rounded-full p-8">
-                                    <i className="text-blue-600 text-4xl" data-fa-i2svg=""><svg className="w-7 h-7 svg-inline--fa fa-crosshairs" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="crosshairs" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 0c17.7 0 32 14.3 32 32V42.4c93.7 13.9 167.7 88 181.6 181.6H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H469.6c-13.9 93.7-88 167.7-181.6 181.6V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V469.6C130.3 455.7 56.3 381.7 42.4 288H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H42.4C56.3 130.3 130.3 56.3 224 42.4V32c0-17.7 14.3-32 32-32zM107.4 288c12.5 58.3 58.4 104.1 116.6 116.6V384c0-17.7 14.3-32 32-32s32 14.3 32 32v20.6c58.3-12.5 104.1-58.4 116.6-116.6H384c-17.7 0-32-14.3-32-32s14.3-32 32-32h20.6C392.1 165.7 346.3 119.9 288 107.4V128c0 17.7-14.3 32-32 32s-32-14.3-32-32V107.4C165.7 119.9 119.9 165.7 107.4 224H128c17.7 0 32 14.3 32 32s-14.3 32-32 32H107.4zM256 224a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"></path></svg></i>
+                                    <i className="text-blue-600text-3xl lg:text-4xl" data-fa-i2svg=""><svg className="w-7 h-7 svg-inline--fa fa-crosshairs" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="crosshairs" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 0c17.7 0 32 14.3 32 32V42.4c93.7 13.9 167.7 88 181.6 181.6H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H469.6c-13.9 93.7-88 167.7-181.6 181.6V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V469.6C130.3 455.7 56.3 381.7 42.4 288H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H42.4C56.3 130.3 130.3 56.3 224 42.4V32c0-17.7 14.3-32 32-32zM107.4 288c12.5 58.3 58.4 104.1 116.6 116.6V384c0-17.7 14.3-32 32-32s32 14.3 32 32v20.6c58.3-12.5 104.1-58.4 116.6-116.6H384c-17.7 0-32-14.3-32-32s14.3-32 32-32h20.6C392.1 165.7 346.3 119.9 288 107.4V128c0 17.7-14.3 32-32 32s-32-14.3-32-32V107.4C165.7 119.9 119.9 165.7 107.4 224H128c17.7 0 32 14.3 32 32s-14.3 32-32 32H107.4zM256 224a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"></path></svg></i>
                                 </div>
                             </div>
                         </div>
@@ -151,7 +151,7 @@ export default function CyberDefense() {
                             </div>
                             <div className="flex items-center justify-center">
                                 <div className="bg-green-100 rounded-full p-8">
-                                    <i className="text-green-600 text-4xl" data-fa-i2svg=""><svg className="w-7 -h-7 svg-inline--fa fa-brain" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="brain" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M184 0c30.9 0 56 25.1 56 56V456c0 30.9-25.1 56-56 56c-28.9 0-52.7-21.9-55.7-50.1c-5.2 1.4-10.7 2.1-16.3 2.1c-35.3 0-64-28.7-64-64c0-7.4 1.3-14.6 3.6-21.2C21.4 367.4 0 338.2 0 304c0-31.9 18.7-59.5 45.8-72.3C37.1 220.8 32 207 32 192c0-30.7 21.6-56.3 50.4-62.6C80.8 123.9 80 118 80 112c0-29.9 20.6-55.1 48.3-62.1C131.3 21.9 155.1 0 184 0zM328 0c28.9 0 52.6 21.9 55.7 49.9c27.8 7 48.3 32.1 48.3 62.1c0 6-.8 11.9-2.4 17.4c28.8 6.2 50.4 31.9 50.4 62.6c0 15-5.1 28.8-13.8 39.7C493.3 244.5 512 272.1 512 304c0 34.2-21.4 63.4-51.6 74.8c2.3 6.6 3.6 13.8 3.6 21.2c0 35.3-28.7 64-64 64c-5.6 0-11.1-.7-16.3-2.1c-3 28.2-26.8 50.1-55.7 50.1c-30.9 0-56-25.1-56-56V56c0-30.9 25.1-56 56-56z"></path></svg></i>
+                                    <i className="text-green-600text-3xl lg:text-4xl" data-fa-i2svg=""><svg className="w-7 -h-7 svg-inline--fa fa-brain" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="brain" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M184 0c30.9 0 56 25.1 56 56V456c0 30.9-25.1 56-56 56c-28.9 0-52.7-21.9-55.7-50.1c-5.2 1.4-10.7 2.1-16.3 2.1c-35.3 0-64-28.7-64-64c0-7.4 1.3-14.6 3.6-21.2C21.4 367.4 0 338.2 0 304c0-31.9 18.7-59.5 45.8-72.3C37.1 220.8 32 207 32 192c0-30.7 21.6-56.3 50.4-62.6C80.8 123.9 80 118 80 112c0-29.9 20.6-55.1 48.3-62.1C131.3 21.9 155.1 0 184 0zM328 0c28.9 0 52.6 21.9 55.7 49.9c27.8 7 48.3 32.1 48.3 62.1c0 6-.8 11.9-2.4 17.4c28.8 6.2 50.4 31.9 50.4 62.6c0 15-5.1 28.8-13.8 39.7C493.3 244.5 512 272.1 512 304c0 34.2-21.4 63.4-51.6 74.8c2.3 6.6 3.6 13.8 3.6 21.2c0 35.3-28.7 64-64 64c-5.6 0-11.1-.7-16.3-2.1c-3 28.2-26.8 50.1-55.7 50.1c-30.9 0-56-25.1-56-56V56c0-30.9 25.1-56 56-56z"></path></svg></i>
                                 </div>
                             </div>
                         </div>
@@ -164,21 +164,21 @@ export default function CyberDefense() {
         <section id="stats" className="py-20 bg-gray-900 text-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold mb-4">Why It Matters</h2>
+                    <h2 className="text-3xl lg:text-4xl font-bold mb-4">Why It Matters</h2>
                     <p className="text-xl text-gray-300">The cybersecurity landscape is evolving rapidly</p>
                 </div>
                 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div id="stat-1" className="stat-card bg-gradient-to-br from-red-500 to-pink-600 rounded-2xl p-8 text-center">
-                        <div className="text-4xl font-bold mb-2">$4.45M</div>
+                        <div className="text-3xl lg:text-4xl font-bold mb-2">$4.45M</div>
                         <div className="text-lg">Average breach cost for AI-powered companies (IBM 2024)</div>
                     </div>
                     <div id="stat-2" className="stat-card bg-gradient-to-br from-orange-500 to-yellow-500 rounded-2xl p-8 text-center">
-                        <div className="text-4xl font-bold mb-2">68%</div>
+                        <div className="text-3xl lg:text-4xl font-bold mb-2">68%</div>
                         <div className="text-lg">of GenAI adopters expose sensitive data via ungoverned models (Gartner)</div>
                     </div>
                     <div id="stat-3" className="stat-card bg-gradient-to-br from-green-500 to-teal-500 rounded-2xl p-8 text-center">
-                        <div className="text-4xl font-bold mb-2">80%</div>
+                        <div className="text-3xl lg:text-4xl font-bold mb-2">80%</div>
                         <div className="text-lg">reduction in remediation costs with early security integration (MITRE)</div>
                     </div>
                 </div>
@@ -189,7 +189,7 @@ export default function CyberDefense() {
         <section id="advantages" className="py-20 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-[#192DA0] mb-4">BrainHouse Cyber Advantage</h2>
+                    <h2 className="text-3xl lg:text-4xl font-bold text-[#192DA0] mb-4">BrainHouse Cyber Advantage</h2>
                 </div>
                 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -222,7 +222,7 @@ export default function CyberDefense() {
         <section id="industry-safeguards" className="py-20 bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-[#192DA0] mb-4">Industry-Specific Safeguards</h2>
+                    <h2 className="text-3xl lg:text-4xl font-bold text-[#192DA0] mb-4">Industry-Specific Safeguards</h2>
                 </div>
                 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -254,7 +254,7 @@ export default function CyberDefense() {
 
         <section id="cta" className="py-20 gradient-bg">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                <h2 className="text-4xl font-bold text-white mb-6">Free Cyber Resilience Audit</h2>
+                <h2 className="text-2xl lg:text-3xl lg:text-4xl font-bold text-white mb-6">Free Cyber Resilience Audit</h2>
                 <p className="text-xl text-gray-100 mb-8">Get a 25-point vulnerability scorecard in 72 hours</p>
                 {/* <button className="inline-flex bg-white text-[#6f6f7d] px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition cyber-glow text-lg">
                     <i className="mr-2" data-fa-i2svg=""><svg className="w-6 h-6 svg-inline--fa fa-shield-halved" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="shield-halved" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 0c4.6 0 9.2 1 13.4 2.9L457.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.6 363.2c-16.7 8-36.1 8-52.8 0C57.3 420.7 16.5 239.2 16 140c-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.8 1 251.4 0 256 0zm0 66.8V444.8C394 378 431.1 230.1 432 141.4L256 66.8l0 0z"></path></svg></i>

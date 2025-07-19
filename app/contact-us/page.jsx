@@ -21,24 +21,21 @@ export default function ContactUs() {
     
 
     try {
-        console.log('form data', formData)
       const response = await fetch('/api/sendEmail', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(formData),
             })
-      console.log('form data', formData)
 
       const result = await response.json()
 
       if (response.ok) {
-        alert('Your request has been sent successfully.')
-        // form.reset(); // optional
+        alert('Your Information has been sent successfully.')
+        form.reset();
       } else {
         alert(`Failed to send request: ${result.message}`)
       }
     } catch (error) {
-      console.error('Error submitting form:', error)
       alert('An error occurred. Please try again.')
     }
   }
@@ -119,8 +116,8 @@ At Brainhouse, we co-create AI-driven ecosystems tailored to your vision, whethe
                         <EnvelopeIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
                         </dt>
                         <dd>
-                        <a href="mailto:hello@example.com" className="hover:text-white">
-                            info@brainhouse.net
+                        <a href="mailto:info@brainhouse.ai" className="hover:text-white">
+                            info@brainhouse.ai
                         </a>
                         </dd>
                     </div>
@@ -133,7 +130,7 @@ At Brainhouse, we co-create AI-driven ecosystems tailored to your vision, whethe
             <form onSubmit={handleSubmit} className="px-6 pt-20 pb-24 sm:pb-32 lg:px-8 lg:py-48">
           <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
-              <div>
+              <div className="sm:col-span-2">
                 <label htmlFor="first-name" className="block text-sm/6 font-semibold text-white">
                   First name
                 </label>
@@ -208,7 +205,7 @@ At Brainhouse, we co-create AI-driven ecosystems tailored to your vision, whethe
             <div className="mt-8 flex justify-end">
               <button
                 type="submit"
-                className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 cursor-pointer"
               >
                 Send message
               </button>

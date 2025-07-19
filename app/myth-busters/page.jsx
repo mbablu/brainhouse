@@ -12,7 +12,7 @@ export default function MythBusters() {
             <div className="max-w-7xl mx-auto px-6">
                 {/* <!-- Header --> */}
                 <div id="faq-header" className="text-center mb-16 pt-10 lg:pt-14">
-                    <h2 className="text-4xl font-bold text-[#192DA0]  mb-6">FAQ &amp; AI Myth Busters</h2>
+                    <h2 className="text-3xl lg:text-4xl font-bold text-[#192DA0]  mb-6">FAQ &amp; AI Myth Busters</h2>
                     <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
                         At Brainhouse, we believe clear understanding leads to confident innovation. That's why we answer your most pressing questions and bust common myths with real data, engineering facts, and practical outcomes.
                     </p>

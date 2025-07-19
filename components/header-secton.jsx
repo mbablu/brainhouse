@@ -63,7 +63,7 @@ export default function HeaderSection() {
             {stats.map((stat) => (
               <div key={stat.name} className="flex flex-col-reverse gap-1">
                 <dt className="text-base/7 text-gray-300">{stat.name}</dt>
-                <dd className="text-4xl font-semibold tracking-tight text-white">{stat.value}</dd>
+                <dd className="text-3xl lg:text-4xl font-semibold tracking-tight text-white">{stat.value}</dd>
               </div>
             ))}
           </dl>

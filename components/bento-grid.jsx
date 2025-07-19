@@ -3,7 +3,7 @@ export default function BentoGrid() {
     <div className="bg-gray-900 py-24 sm:py-32">
       <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
         <h2 className="text-base/7 font-semibold text-indigo-400">Deploy faster</h2>
-        <p className="mt-2 max-w-lg text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl">
+        <p className="mt-2 max-w-lgtext-3xl lg:text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl">
           Everything you need to deploy your app
         </p>
         <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
