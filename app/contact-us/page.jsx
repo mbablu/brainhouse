@@ -9,11 +9,18 @@ export default function ContactUs() {
     e.preventDefault()
 
     const form = e.target
+    const questionAnswer = form.questionAnswer.value.trim()
+
+    if (questionAnswer !== '10') {
+      alert('Please write the correct answer to the math question.')
+      return
+    }
 
     const formData = {
       name: form.name.value,
       email: form.email.value,
       phone: form.phone.value,
+      companyName: form.companyName.value,
       projectType: form.projectType ? form.projectType.value : '',
       message: form.message.value,
     }
@@ -30,7 +37,7 @@ export default function ContactUs() {
       const result = await response.json()
 
       if (response.ok) {
-        alert('Your Information has been sent successfully.')
+        alert('Message sent. Lets achieve extraordinary outcomes together..')
         form.reset();
       } else {
         alert(`Failed to send request: ${result.message}`)
@@ -128,90 +135,114 @@ At Brainhouse, we co-create AI-driven ecosystems tailored to your vision, whethe
                 <img className='rounded-[4px]' src="images/Dotted_world_map_Blue.svg" alt="brainhouse" />
             </div> */}
             <form onSubmit={handleSubmit} className="px-6 pt-20 pb-24 sm:pb-32 lg:px-8 lg:py-48">
-          <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
-            <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
-              <div className="sm:col-span-2">
-                <label htmlFor="first-name" className="block text-sm/6 font-semibold text-white">
-                  First name
-                </label>
-                <div className="mt-2.5">
-                  <input
-                    id="first-name"
-                    name="name"
-                    type="text"
-                    autoComplete="given-name"
-                    className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"
-                    required
-                  />
+              <h2 className='mx-auto max-w-xl lg:mr-0 lg:max-w-lg text-xl text-white font-bold mb-7'>Let's Brainstorm</h2>
+              <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
+                <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+                  <div className="sm:col-span-2">
+                    <label htmlFor="name" className="block text-sm/6 font-semibold text-white">
+                      Name
+                    </label>
+                    <div className="mt-2.5">
+                      <input
+                        id="name"
+                        name="name"
+                        type="text"
+                        autoComplete="given-name"
+                        className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div className="sm:col-span-2">
+                    <label htmlFor="email" className="block text-sm/6 font-semibold text-white">
+                      Email
+                    </label>
+                    <div className="mt-2.5">
+                      <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        autoComplete="email"
+                        className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div className="sm:col-span-2">
+                    <label htmlFor="phone-number" className="block text-sm/6 font-semibold text-white">
+                      Phone number
+                    </label>
+                    <div className="mt-2.5">
+                      <input
+                        id="phone-number"
+                        name="phone"
+                        type="tel"
+                        autoComplete="tel"
+                        className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"
+                      />
+                    </div>
+                  </div>
+                  <div className="sm:col-span-2">
+                    <label htmlFor="company-name" className="block text-sm/6 font-semibold text-white">
+                      Company Name
+                    </label>
+                    <div className="mt-2.5">
+                      <input
+                        id="company-name"
+                        name="companyName"
+                        type="text"
+                        autoComplete="text"
+                        className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"
+                      />
+                    </div>
+                  </div>
+                  <div className="sm:col-span-2">
+                    <label htmlFor="projectType" className="block text-sm/6 font-semibold text-white">
+                      Project Type
+                    </label>
+                    <div className="mt-2.5">
+                      <input
+                        id="projectType"
+                        name="projectType"
+                        type="text"
+                        className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"
+                      />
+                    </div>
+                  </div>
+                  <div className="sm:col-span-2">
+                    <label htmlFor="message" className="block text-sm/6 font-semibold text-white">
+                      Message
+                    </label>
+                    <div className="mt-2.5">
+                      <textarea
+                        id="message"
+                        name="message"
+                        rows={4}
+                        className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <div className="sm:col-span-2">
+                    <label htmlFor="message" className="block text-sm/6 font-semibold text-white">
+                      Please Answer the questions.
+                    </label>
+                    <div className="mt-2.5 flex items-center">
+                      <span className='text-white mr-5 text-lg'>7 + 3 =</span> <span><input type="text" name='questionAnswer' className="block w-[60px] rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500" /></span>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-8 flex justify-end">
+                  <button
+                    type="submit"
+                    className="w-full rounded-md bg-indigo-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 cursor-pointer"
+                  >
+                    Send message
+                  </button>
                 </div>
               </div>
-              <div className="sm:col-span-2">
-                <label htmlFor="email" className="block text-sm/6 font-semibold text-white">
-                  Email
-                </label>
-                <div className="mt-2.5">
-                  <input
-                    id="email"
-                    name="email"
-                    type="email"
-                    autoComplete="email"
-                    className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"
-                    required
-                  />
-                </div>
-              </div>
-              <div className="sm:col-span-2">
-                <label htmlFor="phone-number" className="block text-sm/6 font-semibold text-white">
-                  Phone number
-                </label>
-                <div className="mt-2.5">
-                  <input
-                    id="phone-number"
-                    name="phone"
-                    type="tel"
-                    autoComplete="tel"
-                    className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"
-                  />
-                </div>
-              </div>
-              <div className="sm:col-span-2">
-                <label htmlFor="projectType" className="block text-sm/6 font-semibold text-white">
-                  Project Type
-                </label>
-                <div className="mt-2.5">
-                  <input
-                    id="projectType"
-                    name="projectType"
-                    type="text"
-                    className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"
-                  />
-                </div>
-              </div>
-              <div className="sm:col-span-2">
-                <label htmlFor="message" className="block text-sm/6 font-semibold text-white">
-                  Message
-                </label>
-                <div className="mt-2.5">
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows={4}
-                    className="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"
-                    required
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="mt-8 flex justify-end">
-              <button
-                type="submit"
-                className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 cursor-pointer"
-              >
-                Send message
-              </button>
-            </div>
-          </div>
-        </form>
+            </form>
             
         </div>
         </div>

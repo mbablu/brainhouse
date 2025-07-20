@@ -3,7 +3,7 @@ import nodemailer from 'nodemailer';
 export async function POST(req) {
   try {
     const body = await req.json();
-    const { name, email, phone, projectType, message } = body;
+    const { name, email, phone, companyName, projectType, message } = body;
 
     const user = 'brainstormwbh@gmail.com';
     const pass = 'kvzl pxrx dygp pqvd'
@@ -22,14 +22,16 @@ export async function POST(req) {
     const mailOptions = {
       from: user,
       to: 'info@brainhouse.ai',
+      // to: 'mbablubiswas@gmail.com',
       // replyTo: email,
       subject: `New Contact Request: ${projectType || 'General Inquiry'}`,
       text: `
-Name: ${name}
-Email: ${email}
-Phone: ${phone}
-Project Type: ${projectType}
-Message: ${message}
+      Name: ${name}
+      Email: ${email}
+      Phone: ${phone}
+      Company Name: ${companyName}
+      Project Type: ${projectType}
+      Message: ${message}
       `,
     };
 
