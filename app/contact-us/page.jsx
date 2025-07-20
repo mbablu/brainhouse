@@ -11,7 +11,7 @@ export default function ContactUs() {
     const form = e.target
     const questionAnswer = form.questionAnswer.value.trim()
 
-    if (questionAnswer !== '10') {
+    if (questionAnswer !== '11') {
       alert('Please write the correct answer to the math question.')
       return
     }
@@ -229,7 +229,7 @@ At Brainhouse, we co-create AI-driven ecosystems tailored to your vision, whethe
                       Please Answer the questions.
                     </label>
                     <div className="mt-2.5 flex items-center">
-                      <span className='text-white mr-5 text-lg'>7 + 3 =</span> <span><input type="text" name='questionAnswer' className="block w-[60px] rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500" /></span>
+                      <span className='text-white mr-5 text-lg'>7 + 4 =</span> <span><input type="text" name='questionAnswer' className="block w-[60px] rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500" /></span>
                     </div>
                   </div>
                 </div>
