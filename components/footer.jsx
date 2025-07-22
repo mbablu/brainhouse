@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { X } from 'lucide-react';
 import Link from "next/link";
 import Image from 'next/image';
-// import logoDark from '/images/logo-dark.svg';
+import FooterImg from './../public/images/CFIBLogo.svg';
 
 
 export default function Footer() {
@@ -73,6 +73,7 @@ export default function Footer() {
               Leading AI consulting and development company creating intelligent
               solutions for the future.
             </p>
+            <Image className='w-2/3' src={FooterImg} alt='CFID' width={360} height={216} />
             {/* <div className="flex space-x-4">
               <span className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors cursor-pointer">
                 <svg
@@ -405,6 +406,7 @@ export default function Footer() {
               <p className="text-base">
                 Brainhouse Inc. ("we," "us," or "our") is a Canadian corporation headquartered in Ontario, specializing in AI-powered digital solutions and other software development and architecture. We are committed to protecting your privacy and ensuring that your personal data is handled in a safe and responsible manner in compliance with applicable privacy laws, including the Personal Information Protection and Electronic Documents Act (PIPEDA) and, where applicable, the General Data Protection Regulation (GDPR).
               </p>
+              
             </div>
 
             <section>
