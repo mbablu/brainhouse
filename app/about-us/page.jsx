@@ -216,7 +216,7 @@ export default function AboutUs() {
             </div>
             <div id="location-stat" className="text-center">
               <div className="w-20 h-20 bg-purple-50 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="text-[#6f6f7d] w-8 h-8" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="location-dot" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <svg className="text-[#155dfc] w-8 h-8 fill-[#155dfc]" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="location-dot" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                   <path fill="currentColor" d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"></path>
                 </svg>
               </div>
@@ -225,21 +225,35 @@ export default function AboutUs() {
             </div>
             <div id="presence-stat" className="text-center">
               <div className="w-20 h-20 bg-emerald-50 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="text-emerald-600 w-8 h-8" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="globe" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                  <path fill="currentColor" d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64H348.7c2.2 20.4 3.3 41.8 3.3 64zm28.8-64H503.9c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0H18.6C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192H131.2c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6H344.3c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352H135.3zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6H493.4z"></path>
+                <svg className="text-blue-600 w-10 h-10 fill-[#155dfc]" xmlns="http://www.w3.org/2000/svg" width="38.039" height="38.47" viewBox="0 0 38.039 38.47">
+                  <path id="Trust_By_Design" data-name="Trust By Design" d="M25.251,2.025a1.8,1.8,0,0,0-1.143.405C22.425,3.754,17.914,6.821,12.2,6.46a1.865,1.865,0,0,0-1.984,1.683A32.226,32.226,0,0,0,11.6,20.291a1.763,1.763,0,0,0-.24.962V24.2L9.376,27.206l-.241.06a1.606,1.606,0,0,0-1.5-1.2H3.964A1.592,1.592,0,0,0,2.4,27.627V38.992a1.54,1.54,0,0,0,1.563,1.5H7.572a1.594,1.594,0,0,0,1.443-.962l2.045.842c.06,0,.119.06.24.06h8.48a2.326,2.326,0,0,0,2.284-1.925,2.233,2.233,0,0,0-.3-1.382,2.313,2.313,0,0,0,1.684-2.1,1.666,1.666,0,0,0-.06-.541c.361.18.781.421,1.142.6a1.918,1.918,0,0,0,1.624,0c14.612-7.156,14.552-22.49,14.191-27A1.873,1.873,0,0,0,38.36,6.4c-5.713.421-10.282-2.647-11.966-3.97A1.8,1.8,0,0,0,25.251,2.025Zm-.121,2.51a20.633,20.633,0,0,0,12.088,4.33h.661c.361,4.63-.06,17.619-12.628,23.873-.3-.18-.6-.3-.9-.48a1.483,1.483,0,0,0,.06-.722,2.26,2.26,0,0,0-1.022-1.8,2.415,2.415,0,0,0,.48-1.683,2.279,2.279,0,0,0-2.284-1.925h-4.39c-.241-.3-.421-.6-.661-.9l.18-.661V22.876A3.617,3.617,0,0,0,13.7,19.329,29.317,29.317,0,0,1,12.442,8.866H13.1A20.245,20.245,0,0,0,25.13,4.535Zm.121,6.134a7.156,7.156,0,1,0,7.156,7.156A7.135,7.135,0,0,0,25.251,10.67Zm1.954,5.021a.888.888,0,0,1,.631.27,1.009,1.009,0,0,1-.12,1.264L25.191,19.69a.872.872,0,0,1-1.264,0l-1.2-1.263a.894.894,0,1,1,1.324-1.2l.6.6c.06-.06,2.044-1.985,1.924-1.865A.891.891,0,0,1,27.206,15.691Zm-13.981,4.78a2.362,2.362,0,0,1,2.345,2.405V24.26l-.722,2.286a.612.612,0,0,0,.121.54.546.546,0,0,0,.48.241h6.134a1.049,1.049,0,0,1,1.082.9,1.064,1.064,0,0,1-1.022,1.2H19.479a.6.6,0,1,0,0,1.2h2.645a1.053,1.053,0,0,1,.061,2.1H19.057a.6.6,0,0,0,0,1.2h2.1a.979.979,0,0,1,.962,1.083c.06.421-.481.9-1.022.9H17.734a.6.6,0,0,0,0,1.2h2.1a1.064,1.064,0,0,1,1.022,1.2,1.049,1.049,0,0,1-1.082.9H11.361l-2.286-.9V28.409l.782-.241a.6.6,0,0,0,.3-.241l2.224-3.307a1.012,1.012,0,0,0,.12-.3V21.193A.7.7,0,0,1,13.224,20.471ZM5.768,35.986a1.022,1.022,0,0,1,0,2.045,1.022,1.022,0,0,1,0-2.045Z" transform="translate(-2.4 -2.025)" fill="#155dfc"/>
                 </svg>
               </div>
-              <h3 className="text-2xl lg:text-3xl font-bold text-[#192DA0] ">3</h3>
-              <p className="text-gray-600">Regions</p>
+              <h3 className="text-2xl lg:text-3xl font-bold text-[#192DA0] ">Trust by Design</h3>
+              {/* <p className="text-gray-600">Regions</p> */}
             </div>
             <div id="clients-stat" className="text-center">
               <div className="w-20 h-20 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="text-blue-600 w-8 h-8" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="users" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
-                  <path fill="currentColor" d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192h42.7c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0H21.3C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7h42.7C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3H405.3zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352H378.7C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7H154.7c-14.7 0-26.7-11.9-26.7-26.7z"></path>
-                </svg>
+                  <svg className="text-blue-600 w-10 h-10 fill-[#155dfc]" xmlns="http://www.w3.org/2000/svg" width="38" height="55" viewBox="0 0 38 55">
+                    <g id="Ethical_Ai" data-name="Ethical Ai" transform="translate(-13 -7)">
+                      <circle id="Ellipse_10" data-name="Ellipse 10" cx="2" cy="2" r="2" transform="translate(30 9)" fill="#83ade6"/>
+                      <path id="Path_23" data-name="Path 23" d="M51,61H39V52a4,4,0,0,1,4-4h4a4,4,0,0,1,4,4Z" fill="#4f5994"/>
+                      <path id="Path_24" data-name="Path 24" d="M45,48l-2,7,2,3,2-3Z" fill="#e6e6e6"/>
+                      <circle id="Ellipse_11" data-name="Ellipse 11" cx="4" cy="4" r="4" transform="translate(41 40)" fill="#f2d0a3"/>
+                      <path id="Path_25" data-name="Path 25" d="M25,61H13V52a4,4,0,0,1,4-4h4a4,4,0,0,1,4,4Z" fill="#4f5994"/>
+                      <path id="Path_26" data-name="Path 26" d="M19,48l-2,7,2,3,2-3Z" fill="#e6e6e6"/>
+                      <circle id="Ellipse_12" data-name="Ellipse 12" cx="4" cy="4" r="4" transform="translate(15 40)" fill="#f2d0a3"/>
+                      <circle id="Ellipse_13" data-name="Ellipse 13" cx="4.5" cy="4.5" r="4.5" transform="translate(27.5 38)" fill="#f2d0a3"/>
+                      <path id="Path_27" data-name="Path 27" d="M39,62H25V51a4,4,0,0,1,4-4h6a4,4,0,0,1,4,4Z" fill="#192da0"/>
+                      <path id="Path_28" data-name="Path 28" d="M32,47l-3,8,3,4,3-4Z" fill="#e6e6e6"/>
+                      <path id="Path_29" data-name="Path 29" d="M41.9,10.508A.978.978,0,0,0,41,10H34.816A3,3,0,0,0,33,8.184V7H31V8.184A3,3,0,0,0,29.184,10H23a.978.978,0,0,0-.9.508l-3,6,1.789.9L23,13.192,25.1,17.4l1.789-.9L24.64,12h4.544A3,3,0,0,0,31,13.816V31H28l-1,4H37l-1-4H33V13.816A3,3,0,0,0,34.816,12H39.36l-2.254,4.508,1.789.9L41,13.192,43.1,17.4l1.789-.9ZM32,12a1,1,0,1,1,1-1A1,1,0,0,1,32,12Z" fill="#4f5994"/>
+                      <path id="Path_30" data-name="Path 30" d="M17,16a6,6,0,0,0,12,0Z" fill="#5b6d80"/>
+                      <path id="Path_31" data-name="Path 31" d="M35,16a6,6,0,0,0,12,0Z" fill="#5b6d80"/>
+                    </g>
+                  </svg>
               </div>
               <h3 className="text-2xl lg:text-3xl font-bold text-[#192DA0] ">Ethical AI</h3>
-              <p className="text-gray-600">Trust by Design</p>
+              {/* <p className="text-gray-600">Trust by Design</p> */}
             </div>
           </div>
 
