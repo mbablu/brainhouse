@@ -99,11 +99,9 @@ At Brainhouse, we co-create AI-driven ecosystems tailored to your vision, whethe
                         <BuildingOffice2Icon aria-hidden="true" className="h-7 w-6 text-gray-400" />
                         </dt>
                         <dd>
-                        Brainhouse Inc<br/>
-                        Suite 200 <br/>
-                        2020 Winston Park Drive<br/>
-                        Oakville, ON<br/>
-                        Canada L6H 6X7
+                        231 Oak Park Blvd, Suite 301<br/>
+                        Oakville, ON  <br/>
+                        Canada L6H 7S8
                         </dd>
                     </div>
                     <div className="flex gap-x-4">
